@@ -1,0 +1,59 @@
+/*import fonts from google fonts Wendy One*/
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+
+/*imported downloaded fonts Hitchcock & Univers*/
+@font-face {
+    font-family: 'Hitchcock';
+    src: url("Fonts/Hitchcock/Regular.ttf");
+}
+@font-face {
+    font-family: "Univers";
+    src: url("/Fonts/UniversRegular.ttf");
+}
+/* css reset */
+* {
+    padding: 0;
+    Margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/*default styles for whole page*/
+body {
+    color: #051311;
+    border-color: black;
+    background-color: #FEF7DA;
+}
+
+/*font styles*/
+h1 {
+    font-family: 'Hitchcock';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+h2 {
+    font-family: 'Hitchcock';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+h3{
+    font-family: 'Wendy one';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.75rem;
+}
+h4{
+    font-family: 'Wendy One';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+p {
+    font-family: 'Univers';
+    font-weight: 400;
+    font-style: regular;
+    font-size: 1.25rem;
+}
