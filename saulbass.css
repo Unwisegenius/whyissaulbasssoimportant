@@ -57,3 +57,184 @@ p {
     font-style: regular;
     font-size: 1.25rem;
 }
+/*navigation bar design*/
+.navbar ul {
+
+    list-style: none;
+    background-color: #202B72;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar a {
+    color: #E9E9E9;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-family: 'Wendy One';
+    font-size: 20px;;
+    color: #E9E9E9;
+
+}
+
+.navbar a:hover {
+    background-color: #fe464c;
+}
+
+.navbar li {
+
+    margin: auto;
+    padding: 0px 30px;
+}
+/*opening title card*/
+.opening {
+    Position: relative;
+    display: inline-block;
+    max-width: 100%;
+    margin: auto;
+}
+
+.shapes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border: none;
+    
+}
+/* positioning title text */
+.why {
+    position: absolute;
+    top: 130px;
+    left: 500px;
+    right: 0px;
+    color: #DA0000;
+    font-size: 8rem;
+    font-family: 'Hitchcock';
+    z-index: 0;
+}
+.saul {
+    position: absolute;
+    top: 335px;
+    left: 100px;
+    right: 0px;
+    color: #368BD0;
+    font-size: 8rem;
+    font-family: 'Hitchcock';
+    z-index: 0;
+}
+.bass {
+    position: absolute;
+    top: 335px;
+    left: 730px;
+    right: 0px;
+    color: #007D06;
+    font-size: 8rem;
+    font-family: 'Hitchcock';
+    z-index: 0;
+}
+.so {
+    position: absolute;
+    top: 550px;
+    left: 550px;
+    right: 0px;
+    color: #F58020;
+    font-size: 8rem;
+    font-family: 'Hitchcock';
+    z-index: 0;
+}
+.important {
+    position: absolute;
+    top: 550px;
+    left: 760px;
+    right: 0px;
+    color: #F58020;
+    font-size: 8rem;
+    font-family: 'Hitchcock';
+    z-index: 0;
+}
+/*quote from saul bass section*/
+.quotation img{
+    max-width: 1500px;
+    max-height: 849px;
+    display: block;
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.make {
+    position: absolute;
+    top: 900px;
+    left: 100px;
+    right: 0px;
+    color: #ffffff;
+    font-size: 3rem;
+    font-family: 'Hitchcock';
+    z-index: 0;
+}
+.thing {
+    position: absolute;
+    top: 950px;
+    left: 99px;
+    right: 0px;
+    color: #ffffff;
+    font-size: 3rem;
+    font-family: 'Hitchcock';
+    z-index: 0;
+}
+.comma {
+    position: absolute;
+    top: 950px;
+    left: 250px;
+    right: 0px;
+    color: #ffffff;
+    font-size: 3rem;
+    font-family: 'Wendy one';
+    z-index: 0;
+}
+.if {
+    position: absolute;
+    top: 950px;
+    left: 270px;
+    right: 0px;
+    color: #ffffff;
+    font-size: 3rem;
+    font-family: 'Hitchcock';
+    z-index: 0;
+}
+.cares {
+    position: absolute;
+    top: 1000px;
+    left: 99px;
+    right: 0px;
+    color: #ffffff;
+    font-size: 3rem;
+    font-family: 'Hitchcock';
+    z-index: 0;
+}
+.dash {
+    position: absolute;
+    top: 1000px;
+    left: 250px;
+    right: 0px;
+    color: #ffffff;
+    font-size: 3rem;
+    font-family: 'Wendy One';
+    z-index: 0;
+}
+.sb {
+    position: absolute;
+    top: 1000px;
+    left: 280px;
+    right: 0px;
+    color: #ffffff;
+    font-size: 3rem;
+    font-family: 'Hitchcock';
+    z-index: 0;
+}
