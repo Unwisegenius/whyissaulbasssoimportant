@@ -104,6 +104,7 @@ p {
     display: block;
     margin: auto;
     border: none;
+
     
 }
 /* positioning title text */
@@ -237,4 +238,45 @@ p {
     font-size: 3rem;
     font-family: 'Hitchcock';
     z-index: 0;
+}
+/*Introduction*/
+.hand img{
+    max-width: 600px;
+    max-height: 400px;
+    display: block;
+    width: 100%;
+    padding: 0px 70px 100px 0px;
+ 
+}
+.title {
+    position: absolute;
+    top: 1300px;
+    left: 750px;
+    right: 0px;
+    color: #051311;
+    font-size: 5rem;
+    font-family: 'Wendy one';
+    z-index: 0;
+}
+.indo {
+    position: absolute;
+    top: 1400px;
+    left: 650px;
+    right: 0px;
+    color: #051311;
+    font-size: 3rem;
+    font-family: 'Wendy one';
+    z-index: 0;
+    margin-right: 3rem;
+}
+.indo2 {
+    position: absolute;
+    top: 1600px;
+    left: 650px;
+    right: 0px;
+    color: #051311;
+    font-size: 3rem;
+    font-family: 'Wendy one';
+    z-index: 0;
+    margin-right: 3rem;
 }
