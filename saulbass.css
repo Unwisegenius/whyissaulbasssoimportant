@@ -280,3 +280,161 @@ p {
     z-index: 0;
     margin-right: 3rem;
 }
+/*role in graphic design*/
+.vertigo img{
+    max-width: 1460px;
+    max-height: 470px;
+    display: block;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+}
+.title2 {
+    position: absolute;
+    top: 1900px;
+    left: 325px;
+    right: 320px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 6rem;
+    font-family: 'hitchcock';
+    z-index: 0;
+}
+.GraphicDesign p {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 0px 200px 30px 200px;
+
+}
+
+.GraphicDesign h3 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    padding: 0px 200px 30px 200px;
+}
+
+.GraphicDesign h4 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 0px 200px 30px 200px;
+
+}
+.atat img {
+    max-width: 716px;
+    max-height: 649px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px 30px 30px;
+    border-radius: 10%;
+    background-repeat: repeat;
+}
+.warner img {
+    max-width: 716px;
+    max-height: 649px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px 30px 30px;
+    border-radius: 10%;
+    background-repeat: repeat;
+}
+.anatomy img{
+    max-width: 716px;
+    max-height: 649px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px 30px 30px;
+    border-radius: 10%;
+    background-repeat: repeat;
+}
+.album img {
+    max-width: 716px;
+    max-height: 649px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px 30px 30px;
+    border-radius: 10%;
+    background-repeat: repeat;
+}
+/*influence on film indusrty*/
+.industry {
+    background-color: #F6D000;
+    padding: 200px 100px 200px 100px;
+}
+.industry2 {
+    position: absolute;
+    top: 5850px;
+    right:300px;
+    left: 300px;
+    text-align: right;
+    color: #051311;
+    font-size: 6rem;
+    font-family: 'Wendy One';
+    z-index: 0;
+    padding: 0px 50px 100px 0px
+}
+.industry2 {
+    transform: rotate(-10deg)
+}
+.Film p {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 10px 200px 30px 200px;
+
+}
+
+.Film h3 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    padding: 0px 200px 30px 200px;
+}
+
+.Film h4 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 0px 200px 30px 200px;
+}
+.casino {
+    max-width: 716px;
+    max-height: 649px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 260px 30px 0px;
+    border-radius: 10%;
+    background-repeat: repeat;
+}
+.goodfellas {
+    max-width: 716px;
+    max-height: 649px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 260px 30px 0px;
+    border-radius: 10%;
+    background-repeat: repeat;
+}
+.Seven { 
+    max-width: 716px;
+    max-height: 649px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 300px 30px 30px;
+    border-radius: 10%;
+    background-repeat: repeat;
+}
+.Story {
+       max-width: 716px;
+    max-height: 649px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 300px 30px 30px;
+    border-radius: 10%;
+    background-repeat: repeat;
+}
