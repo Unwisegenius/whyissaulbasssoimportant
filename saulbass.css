@@ -1,5 +1,6 @@
-/*import fonts from google fonts Wendy One*/
+/*import fonts from google fonts Wendy One Stencil */
 @import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&family=Wendy+One&display=swap');
 
 /*imported downloaded fonts Hitchcock & Univers*/
 @font-face {
@@ -309,8 +310,8 @@ p {
 .GraphicDesign h3 {
     max-width: 1200px;
     margin: 0 auto 0 auto;
-    text-align: center;
-    padding: 0px 200px 30px 200px;
+    text-align: left;
+    padding: 10px 200px 30px 200px;
 }
 
 .GraphicDesign h4 {
@@ -389,7 +390,7 @@ p {
 .Film h3 {
     max-width: 1200px;
     margin: 0 auto 0 auto;
-    text-align: center;
+    text-align: left;
     padding: 0px 200px 30px 200px;
 }
 
@@ -429,7 +430,7 @@ p {
     background-repeat: repeat;
 }
 .Story {
-       max-width: 716px;
+    max-width: 716px;
     max-height: 649px;
     display: block;
     margin-left: auto;
@@ -437,4 +438,61 @@ p {
     padding: 30px 300px 30px 30px;
     border-radius: 10%;
     background-repeat: repeat;
+}
+/*saul bass's influence section*/
+.back {
+    background-color: #368BD0;
+    padding: 0px 0px 0px 100px;
+}
+.army {
+    max-width: 1660px;
+    max-height: 670px;
+    display: block;
+    width: 50%;
+    padding: 0px 0px 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.influ {
+    color: #ffffff;
+    font-size: 6rem;
+    font-family: 'Saira Stencil One';
+    z-index: 0;
+    padding: 0px 0px 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Influence p {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 10px 200px 30px 200px;
+
+}
+
+.Influence h3 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    text-align: left;
+    padding: 0px 200px 30px 200px;
+}
+
+.Influence h4 {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 0px 200px 30px 200px;
+}
+.lawry-left {
+
+    color: #051311;
+    font-size: 1.25rem;
+    font-family: 'Univers';
+    z-index: 0;
+    margin-right: 42.5rem;
+    margin-left: 12.5rem;
+    padding: 0 0 30px 0;
+}
+.lawry-right {
+ position: absolute;
+right: 300px;
+
 }
