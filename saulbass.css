@@ -152,7 +152,7 @@ p {
 .important {
     position: absolute;
     top: 550px;
-    left: 760px;
+    left: 750px;
     right: 0px;
     color: #F58020;
     font-size: 8rem;
@@ -486,15 +486,129 @@ margin-right: 0px;
     font-size: 1.25rem;
     font-family: 'Univers';
     z-index: 0;
-    margin-right: 42.5rem;
+    margin-right: 55rem;
     margin-left: 12.5rem;
     padding: 0 0 30px 0;
 }
 .lawry-right img {
-    max-width: 260px;
-    max-height: 300px;
+    max-width: 200px;
+    max-height: 220px;
     display: block;
     width: 100%;
    position: absolute;
-   right: 500px;
+   right: 425px;
+}
+.lawdy img {
+    max-width: 716px;
+    max-height: 649px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px 30px 30px;
+    border-radius: 10%;
+    background-repeat: repeat;
+}
+.Monster {
+    max-width: 716px;
+    max-height: 649px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 280px 30px 0px;
+    border-radius: 10%;
+    background-repeat: repeat;
+}
+.mad {
+    max-width: 716px;
+    max-height: 649px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 280px 30px 0px;
+    border-radius: 10%;
+    background-repeat: repeat;
+}
+/*in conclusion section*/
+.Conclusion {
+    background-color: #F8A700;
+    padding: 0px 0px 0px 100px;
+}
+
+.body img{
+    max-width: 700px;
+    max-height: 700px;
+    display: block;
+    width: 100%;
+    padding: 0px 0px 100px 650px;
+ 
+}
+.clus {
+    position: absolute;
+    top: 14300px;
+    left: 90px;
+    right: 0px;
+    color: #051311;
+    font-size: 7rem;
+    font-family: 'Wendy one';
+    z-index: 0;
+}
+.con1 {
+    position: absolute;
+    top: 14450px;
+    left: 100px;
+    right: 500px;
+    color: #051311;
+    font-size: 3rem;
+    font-family: 'Wendy one';
+    z-index: 0;
+    margin-right: 3rem;
+}
+.con2 {
+    position: absolute;
+    top: 14650px;
+    left: 100px;
+    right: 500px;
+    color: #051311;
+    font-size: 3rem;
+    font-family: 'Wendy one';
+    z-index: 0;
+    margin-right: 3rem;
+}
+.con3 {
+    position: absolute;
+    top: 14750px;
+    left: 100px;
+    right: 500px;
+    color: #051311;
+    font-size: 3rem;
+    font-family: 'Wendy one';
+    z-index: 0;
+    margin-right: 3rem;
+}
+/*references*/
+.reference {
+    background-color: #202B72;
+}
+.reference h2 {
+    max-width: 1200px;
+        margin: 0 auto 0 auto;
+        padding: 20px 200px 30px 200px;
+        color: #E9E9E9;
+}
+.reference p {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 10px 200px 30px 200px;
+    color: #E9E9E9;
+}
+/*copyright*/
+.jared {
+    background-color: #F6D000;
+}
+.jared p {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 10px 200px 30px 200px;
+    color: #051311;
+    text-align: center;
 }
