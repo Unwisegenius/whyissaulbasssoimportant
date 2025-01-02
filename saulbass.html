@@ -10,17 +10,34 @@
 </head>
 
 <body>
-
-    <header>
-        <div class="navbar">
-            <ul>
-                <li> <a href="#Intro">Introduction</a></li>
-                <li> <a href="#Role">Role in Graphic Design</a></li>
-                <li> <a href="#Film">Influence on the Film Industry</a></li>
-                <li> <a href="#Influence">Saul Bass's Influence</a></li>
-                <li> <a href="#End">Conclusion</a></li>
-            </ul>
-        </div>
+    <nav class="navbar">
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg></a></li>
+            <li> <a href="#Intro">Introduction</a></li>
+            <li> <a href="#Role">Role in Graphic Design</a></li>
+            <li> <a href="#Film">Influence on the Film Industry</a></li>
+            <li> <a href="#Influence">Saul Bass's Influence</a></li>
+            <li> <a href="#End">Conclusion</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"> <a href="#Intro">Introduction</a></li>
+            <li class="hideOnMobile"> <a href="#Role">Role in Graphic Design</a></li>
+            <li class="hideOnMobile"> <a href="#Film">Influence on the Film Industry</a></li>
+            <li class="hideOnMobile"> <a href="#Influence">Saul Bass's Influence</a></li>
+            <li class="hideOnMobile"> <a href="#End">Conclusion</a></li>
+            <li class='menu-button' onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" stroke="#202B72" stroke-width="2.5" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg></a></li>
+        </ul>
+    </nav>
     </header>
 
     <div class="Opening">
@@ -247,14 +264,15 @@
                 helped with the movie title sequences as well.
             </p>
             <h4>Casino</h4>
-            <div class="casino">
-                <iframe width="980" height="545" src="https://www.youtube.com/embed/HMva00IO0zA"
-                    title="Casino (1995) opening title" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
-                </iframe>
-            </div>
+            <iframe class="casinovideo" src="https://www.youtube.com/embed/HMva00IO0zA"
+                title="Casino (1995) opening title" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                style='display: block; margin: 0 auto;'>
+
+            </iframe>
+
             <p> The casino opening is crazy, this is Saul Bass’s last work and it starts out with Robert DeNiro’s
                 character
                 Ace walking to his car, then it has a monologue about love and trust then an explosion, there is a car
@@ -291,14 +309,15 @@
                 or a more moving ending to his collaboration with his wife Elaine. (12.)
             </p>
             <h4>Goodfellas</h4>
-            <div class="goodfellas">
-                <iframe width="980" height="551" src="https://www.youtube.com/embed/8C2caqaJPPM"
-                    title="Goodfellas (1990) | Opening Scene | HD BluRray 1080p" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
-                </iframe>
-            </div>
+            <iframe class="goodfellas" src="https://www.youtube.com/embed/8C2caqaJPPM"
+                title="Goodfellas (1990) | Opening Scene | HD BluRray 1080p" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                style='display: block; margin: 0 auto;'>
+
+            </iframe>
+
             <p> The opening for Goodfellas pulls the audience in, we can see Saul Bass using International Design style
                 for
                 the opening, with text of the actors name zooming by like a car with a whooshing car horn sound effect
@@ -341,12 +360,13 @@
                 a form of visual storytelling, A great example of the is the opening for Seven which was created by Kyle
                 Cooper
             </p>
-            <div class="Seven">
-                <iframe width="980" height="551" src="https://www.youtube.com/embed/-BJkDyCdw0c"
+           
+                <iframe class="Seven" src="https://www.youtube.com/embed/-BJkDyCdw0c"
                     title="Se7en (1995) title sequence" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen  style='display: block; margin: 0 auto;'>
+                </iframe>
+           
             <p> Here we can see through the eyes of the murderer preparing and writing his clues and letters for the
                 detectives in Seven, from the opening is twisted and it reflects the tone of the movie, The way it has
                 been
@@ -467,12 +487,13 @@
                 influential he has been as a designer, Here are two examples of inspiration in Popular Film and TV.
             </p>
             <h4>Monsters Inc</h4>
-            <div class="Monster">
-                <iframe width="980" height="531" src="https://www.youtube.com/embed/vFgYu5AU4-A"
+            
+                <iframe class="Monster" src="https://www.youtube.com/embed/vFgYu5AU4-A"
                     title="Monsters, Inc. - Title Intro" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                    style='display: block; margin: 0 auto;'></iframe>
+          
             <p> The Monsters Inc opening title sequence is created by Geefwee Boedoe, the sequence is reminiscent of
                 Saul
                 Bass’s
@@ -485,12 +506,13 @@
                 title sequence helps reinforce that it is a comedy. (20.)
             </p>
             <h4>Mad Men</h4>
-            <div class="mad">
-                <iframe width="906" height="566" src="https://www.youtube.com/embed/wHNVxRaHprw"
+        
+                <iframe class="mad" src="https://www.youtube.com/embed/wHNVxRaHprw"
                     title="Mad Men | Opening Credits / Intro | AMC" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen  style='display: block; margin: 0 auto;'>
+                </iframe>
+            
             <p> The opening for Mad Men is a stark contrast in terms of design and tone compared to Monster Inc.
                 Designed by
                 Jeremy Cox and creatively directed by Steve Fuller and Mark Gardner , the opening title features a
@@ -607,7 +629,16 @@
     <div class="jared">
         <p>2024 - Jared Russell</p>
     </div>
-
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
 </body>
 
 </html>

@@ -7,10 +7,12 @@
     font-family: 'Hitchcock';
     src: url("Fonts/Hitchcock/Regular.ttf");
 }
+
 @font-face {
     font-family: "Univers";
     src: url("/Fonts/UniversRegular.ttf");
 }
+
 /* css reset */
 * {
     padding: 0;
@@ -40,24 +42,28 @@ h2 {
     font-style: normal;
     font-size: 2rem;
 }
-h3{
+
+h3 {
     font-family: 'Wendy one';
     font-weight: 400;
     font-style: normal;
     font-size: 1.75rem;
 }
-h4{
+
+h4 {
     font-family: 'Wendy One';
     font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
 }
+
 p {
     font-family: 'Univers';
     font-weight: 400;
     font-style: regular;
     font-size: 1.25rem;
 }
+
 /*navigation bar design*/
 .navbar ul {
 
@@ -76,7 +82,8 @@ p {
     padding: 20px;
     display: block;
     font-family: 'Wendy One';
-    font-size: 20px;;
+    font-size: 20px;
+    ;
     color: #E9E9E9;
 
 }
@@ -90,6 +97,40 @@ p {
     margin: auto;
     padding: 0px 30px;
 }
+
+/*sidebar*/
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50vh;
+    width: 200px;
+    z-index: 999;
+    background-color: #202B72;
+    backdrop-filter: blur(10px);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 70%;
+}
+
+.sidebar a {
+    width: 100%;
+}
+
+.sidebar a:hover {
+    background-color: #fe464c;
+}
+
+.menu-button {
+    display: none;
+
+}
+
 /*opening title card*/
 .opening {
     Position: relative;
@@ -106,8 +147,9 @@ p {
     margin: auto;
     border: none;
 
-    
+
 }
+
 /* positioning title text */
 .why {
     position: absolute;
@@ -119,6 +161,7 @@ p {
     font-family: 'Hitchcock';
     z-index: 0;
 }
+
 .saul {
     position: absolute;
     top: 335px;
@@ -129,6 +172,7 @@ p {
     font-family: 'Hitchcock';
     z-index: 0;
 }
+
 .bass {
     position: absolute;
     top: 335px;
@@ -139,6 +183,7 @@ p {
     font-family: 'Hitchcock';
     z-index: 0;
 }
+
 .so {
     position: absolute;
     top: 550px;
@@ -149,6 +194,7 @@ p {
     font-family: 'Hitchcock';
     z-index: 0;
 }
+
 .important {
     position: absolute;
     top: 550px;
@@ -159,8 +205,9 @@ p {
     font-family: 'Hitchcock';
     z-index: 0;
 }
+
 /*quote from saul bass section*/
-.quotation img{
+.quotation img {
     max-width: 1500px;
     max-height: 849px;
     display: block;
@@ -170,6 +217,7 @@ p {
     margin-left: auto;
 
 }
+
 .make {
     position: absolute;
     top: 900px;
@@ -180,6 +228,7 @@ p {
     font-family: 'Hitchcock';
     z-index: 0;
 }
+
 .thing {
     position: absolute;
     top: 950px;
@@ -190,6 +239,7 @@ p {
     font-family: 'Hitchcock';
     z-index: 0;
 }
+
 .comma {
     position: absolute;
     top: 950px;
@@ -200,6 +250,7 @@ p {
     font-family: 'Wendy one';
     z-index: 0;
 }
+
 .if {
     position: absolute;
     top: 950px;
@@ -210,6 +261,7 @@ p {
     font-family: 'Hitchcock';
     z-index: 0;
 }
+
 .cares {
     position: absolute;
     top: 1000px;
@@ -220,6 +272,7 @@ p {
     font-family: 'Hitchcock';
     z-index: 0;
 }
+
 .dash {
     position: absolute;
     top: 1000px;
@@ -230,6 +283,7 @@ p {
     font-family: 'Wendy One';
     z-index: 0;
 }
+
 .sb {
     position: absolute;
     top: 1000px;
@@ -240,15 +294,17 @@ p {
     font-family: 'Hitchcock';
     z-index: 0;
 }
+
 /*Introduction*/
-.hand img{
+.hand img {
     max-width: 600px;
     max-height: 400px;
     display: block;
     width: 100%;
     padding: 0px 70px 100px 0px;
- 
+
 }
+
 .title {
     position: absolute;
     top: 1300px;
@@ -259,36 +315,40 @@ p {
     font-family: 'Wendy one';
     z-index: 0;
 }
+
 .indo {
     position: absolute;
     top: 1400px;
     left: 650px;
     right: 0px;
     color: #051311;
-    font-size: 3rem;
+    font-size: 1.25rem;
     font-family: 'Univers';
     z-index: 0;
     margin-right: 3rem;
 }
+
 .indo2 {
     position: absolute;
     top: 1600px;
     left: 650px;
     right: 0px;
     color: #051311;
-    font-size: 3rem;
+    font-size: 1.25rem;
     font-family: 'Univers';
     z-index: 0;
     margin-right: 3rem;
 }
+
 /*role in graphic design*/
-.vertigo img{
+.vertigo img {
     max-width: 1460px;
     max-height: 470px;
     display: block;
     width: 100%;
     padding: 0px 0px 0px 0px;
 }
+
 .title2 {
     position: absolute;
     top: 1900px;
@@ -300,6 +360,7 @@ p {
     font-family: 'hitchcock';
     z-index: 0;
 }
+
 .GraphicDesign p {
     max-width: 1200px;
     margin: 0 auto 0 auto;
@@ -320,6 +381,7 @@ p {
     padding: 0px 200px 30px 200px;
 
 }
+
 .atat img {
     max-width: 716px;
     max-height: 649px;
@@ -330,6 +392,7 @@ p {
     border-radius: 10%;
     background-repeat: repeat;
 }
+
 .warner img {
     max-width: 716px;
     max-height: 649px;
@@ -340,7 +403,8 @@ p {
     border-radius: 10%;
     background-repeat: repeat;
 }
-.anatomy img{
+
+.anatomy img {
     max-width: 716px;
     max-height: 649px;
     display: block;
@@ -350,6 +414,7 @@ p {
     border-radius: 10%;
     background-repeat: repeat;
 }
+
 .album img {
     max-width: 716px;
     max-height: 649px;
@@ -360,15 +425,17 @@ p {
     border-radius: 10%;
     background-repeat: repeat;
 }
+
 /*influence on film indusrty*/
 .industry {
     background-color: #F6D000;
     padding: 200px 100px 200px 100px;
 }
+
 .industry2 {
     position: absolute;
     top: 5850px;
-    right:300px;
+    right: 300px;
     left: 300px;
     text-align: right;
     color: #051311;
@@ -377,9 +444,11 @@ p {
     z-index: 0;
     padding: 0px 50px 100px 0px
 }
+
 .industry2 {
     transform: rotate(-10deg)
 }
+
 .Film p {
     max-width: 1200px;
     margin: 0 auto 0 auto;
@@ -399,36 +468,24 @@ p {
     margin: 0 auto 0 auto;
     padding: 0px 200px 30px 200px;
 }
-.casino {
-    max-width: 716px;
-    max-height: 649px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px 260px 30px 0px;
-    border-radius: 10%;
-    background-repeat: repeat;
+
+.casinovideo {
+    aspect-ratio: 16 / 9;
+    width: 800px;
+
 }
+
+
 .goodfellas {
-    max-width: 716px;
-    max-height: 649px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px 260px 30px 0px;
-    border-radius: 10%;
-    background-repeat: repeat;
+    aspect-ratio: 16 / 9;
+    width: 800px;
 }
-.Seven { 
-    max-width: 716px;
-    max-height: 649px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px 300px 30px 30px;
-    border-radius: 10%;
-    background-repeat: repeat;
+
+.Seven {
+    aspect-ratio: 16 / 9;
+    width: 800px;
 }
+
 .Story {
     max-width: 716px;
     max-height: 649px;
@@ -439,11 +496,13 @@ p {
     border-radius: 10%;
     background-repeat: repeat;
 }
+
 /*saul bass's influence section*/
 .back {
     background-color: #368BD0;
     padding: 0px 0px 0px 100px;
 }
+
 .army {
     max-width: 1660px;
     max-height: 670px;
@@ -453,14 +512,16 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
 .influ {
     color: #ffffff;
     font-size: 6rem;
     font-family: 'Saira Stencil One';
     z-index: 0;
-margin-left: 140px;
-margin-right: 0px;
+    margin-left: 140px;
+    margin-right: 0px;
 }
+
 .Influence p {
     max-width: 1200px;
     margin: 0 auto 0 auto;
@@ -480,6 +541,7 @@ margin-right: 0px;
     margin: 0 auto 0 auto;
     padding: 0px 200px 30px 200px;
 }
+
 .lawry-left {
 
     color: #051311;
@@ -490,14 +552,16 @@ margin-right: 0px;
     margin-left: 12.5rem;
     padding: 0 0 30px 0;
 }
+
 .lawry-right img {
     max-width: 200px;
     max-height: 220px;
     display: block;
     width: 100%;
-   position: absolute;
-   right: 425px;
+    position: absolute;
+    right: 425px;
 }
+
 .lawdy img {
     max-width: 716px;
     max-height: 649px;
@@ -508,53 +572,43 @@ margin-right: 0px;
     border-radius: 10%;
     background-repeat: repeat;
 }
+
 .Monster {
-    max-width: 716px;
-    max-height: 649px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px 280px 30px 0px;
-    border-radius: 10%;
-    background-repeat: repeat;
+    aspect-ratio: 16 / 9;
+    width: 800px;
 }
+
 .mad {
-    max-width: 716px;
-    max-height: 649px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px 280px 30px 0px;
-    border-radius: 10%;
-    background-repeat: repeat;
+    aspect-ratio: 16 / 9;
+    width: 800px;
 }
+
 /*in conclusion section*/
 .Conclusion {
     background-color: #F8A700;
-    padding: 0px 0px 0px 100px;
+    padding: 600px 0px 0px 0px;
 }
 
-.body img{
-    max-width: 700px;
-    max-height: 700px;
-    display: flex;
-    width: 100%;
-    padding: 0px 0px 100px 650px;
- 
+.body img {
+    position: absolute;
+    top: 13400px;
+    right: 30px;
 }
+
 .clus {
     position: absolute;
-    top: 14300px;
-    left: 90px;
+    top: 13500px;
+    left: 100px;
     right: 0px;
     color: #051311;
     font-size: 7rem;
     font-family: 'Wendy One';
     z-index: 0;
 }
+
 .con1 {
     position: absolute;
-    top: 14450px;
+    top: 13625px;
     left: 100px;
     right: 500px;
     color: #051311;
@@ -563,9 +617,10 @@ margin-right: 0px;
     z-index: 0;
     margin-right: 3rem;
 }
+
 .con2 {
     position: absolute;
-    top: 14650px;
+    top: 13800px;
     left: 100px;
     right: 500px;
     color: #051311;
@@ -574,9 +629,10 @@ margin-right: 0px;
     z-index: 0;
     margin-right: 3rem;
 }
+
 .con3 {
     position: absolute;
-    top: 14750px;
+    top: 13900px;
     left: 100px;
     right: 500px;
     color: #051311;
@@ -585,26 +641,31 @@ margin-right: 0px;
     z-index: 0;
     margin-right: 3rem;
 }
+
 /*references*/
 .reference {
     background-color: #202B72;
 }
+
 .reference h2 {
     max-width: 1200px;
-        margin: 0 auto 0 auto;
-        padding: 20px 200px 30px 200px;
-        color: #E9E9E9;
+    margin: 0 auto 0 auto;
+    padding: 20px 200px 30px 200px;
+    color: #E9E9E9;
 }
+
 .reference p {
     max-width: 1200px;
     margin: 0 auto 0 auto;
     padding: 10px 200px 30px 200px;
     color: #E9E9E9;
 }
+
 /*copyright*/
 .jared {
     background-color: #F6D000;
 }
+
 .jared p {
     max-width: 1200px;
     margin: 0 auto 0 auto;
@@ -612,243 +673,305 @@ margin-right: 0px;
     color: #051311;
     text-align: center;
 }
+
 /*responsiveness*/
+/*side bar menu*/
+@media(max-width:768px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .menu-button {
+        display: flex;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        z-index: 998;
+    }
+}
+
+@media(max-width:768px) {
+    .sidebar {
+        width: 100%;
+        opacity: 100%;
+        ;
+    }
+}
+
+@media(min-width:769px) {
+    .sidebar {
+        opacity: 0%;
+    }
+
+    .sidebar ul {
+        list-style: none;
+        background-color: #202B72;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
 
 /*1024px*/
 /*Opening 1024*/
-@media (max-width: 1024px){
-.opening {
-    Position: relative;
-    display: flex;
-    max-width: 100%;
-    margin: auto;
-}
-.shapes img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: flex;
-    margin: auto;
-    border: none;
-
-    
-}
-/* positioning title text */
-.why {
-    position: absolute;
-    top: 130px;
-    left: 350px;
-    right: 0px;
-    color: #DA0000;
-    font-size: 6rem;
-    font-family: 'Hitchcock';
-    z-index: 0;
-}
-.saul {
-    position: absolute;
-    top: 280px;
-    left: 50px;
-    right: 0px;
-    color: #368BD0;
-    font-size: 6rem;
-    font-family: 'Hitchcock';
-    z-index: 0;
-}
-.bass {
-    position: absolute;
-    top: 280px;
-    left: 510px;
-    right: 0px;
-    color: #007D06;
-    font-size: 6rem;
-    font-family: 'Hitchcock';
-    z-index: 0;
-}
-.so {
-    position: absolute;
-    top: 430px;
-    left: 400px;
-    right: 0px;
-    color: #F58020;
-    font-size: 5.5rem;
-    font-family: 'Hitchcock';
-    z-index: 0;
-}
-.important {
-    position: absolute;
-    top: 430px;
-    left: 550px;
-    right: 0px;
-    color: #F58020;
-    font-size: 5.5rem;
-    font-family: 'Hitchcock';
-    z-index: 0;
-}
+@media (max-width: 1024px) {
+    .opening {
+        Position: relative;
+        display: flex;
+        max-width: 100%;
+        margin: auto;
     }
 
+    .shapes img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: flex;
+        margin: auto;
+        border: none;
+
+
+    }
+}
+
+/* positioning title text */
+@media (max-width: 1024px) {
+    .why {
+        position: absolute;
+        top: 130px;
+        left: 350px;
+        right: 0px;
+        color: #DA0000;
+        font-size: 6rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .saul {
+        position: absolute;
+        top: 280px;
+        left: 50px;
+        right: 0px;
+        color: #368BD0;
+        font-size: 6rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .bass {
+        position: absolute;
+        top: 280px;
+        left: 510px;
+        right: 0px;
+        color: #007D06;
+        font-size: 6rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .so {
+        position: absolute;
+        top: 430px;
+        left: 400px;
+        right: 0px;
+        color: #F58020;
+        font-size: 5.5rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .important {
+        position: absolute;
+        top: 430px;
+        left: 550px;
+        right: 0px;
+        color: #F58020;
+        font-size: 5.5rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+}
+
 /*quote from saul bass section 1024*/
-@media (max-width: 1024px){
-.quotation img{
-    max-width: 1500px;
-    max-height: 849px;
-    display: block;
-    width: 100%;
-    padding: 20px 0px 0px 0px;
-    margin-right: auto;
-    margin-left: auto;
+@media (max-width: 1024px) {
+    .quotation img {
+        max-width: 1500px;
+        max-height: 849px;
+        display: block;
+        width: 100%;
+        padding: 20px 0px 0px 0px;
+        margin-right: auto;
+        margin-left: auto;
 
+    }
+
+    .make {
+        position: absolute;
+        top: 700px;
+        left: 100px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 2rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .thing {
+        position: absolute;
+        top: 750px;
+        left: 99px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 2rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .comma {
+        position: absolute;
+        top: 750px;
+        left: 200px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 2rem;
+        font-family: 'Wendy one';
+        z-index: 0;
+    }
+
+    .if {
+        position: absolute;
+        top: 750px;
+        left: 215px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 2rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .cares {
+        position: absolute;
+        top: 800px;
+        left: 99px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 2rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .dash {
+        position: absolute;
+        top: 800px;
+        left: 200px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 2rem;
+        font-family: 'Wendy One';
+        z-index: 0;
+    }
+
+    .sb {
+        position: absolute;
+        top: 800px;
+        left: 220px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 2rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
 }
-.make {
-    position: absolute;
-    top: 700px;
-    left: 100px;
-    right: 0px;
-    color: #ffffff;
-    font-size: 2rem;
-    font-family: 'Hitchcock';
-    z-index: 0;
-}
-.thing {
-    position: absolute;
-    top: 750px;
-    left: 99px;
-    right: 0px;
-    color: #ffffff;
-    font-size: 2rem;
-    font-family: 'Hitchcock';
-    z-index: 0;
-}
-.comma {
-    position: absolute;
-    top: 750px;
-    left: 200px;
-    right: 0px;
-    color: #ffffff;
-    font-size: 2rem;
-    font-family: 'Wendy one';
-    z-index: 0;
-}
-.if {
-    position: absolute;
-    top: 750px;
-    left: 215px;
-    right: 0px;
-    color: #ffffff;
-    font-size: 2rem;
-    font-family: 'Hitchcock';
-    z-index: 0;
-}
-.cares {
-    position: absolute;
-    top: 800px;
-    left: 99px;
-    right: 0px;
-    color: #ffffff;
-    font-size: 2rem;
-    font-family: 'Hitchcock';
-    z-index: 0;
-}
-.dash {
-    position: absolute;
-    top: 800px;
-    left: 200px;
-    right: 0px;
-    color: #ffffff;
-    font-size: 2rem;
-    font-family: 'Wendy One';
-    z-index: 0;
-}
-.sb {
-    position: absolute;
-    top: 800px;
-    left: 220px;
-    right: 0px;
-    color: #ffffff;
-    font-size: 2rem;
-    font-family: 'Hitchcock';
-    z-index: 0;
-}
-}
+
 /*introduction 1024px*/
-@media (max-width: 1024px){
-.hand img{
-    max-width: 550px;
-    max-height: 350px;
-    display: block;
-    width: 100%;
-    padding: 0px 70px 110px 0px;
- 
-}
-.title {
-    position: absolute;
-    top: 1050px;
-    left: 550px;
-    right: 0px;
-    color: #051311;
-    font-size: 4rem;
-    font-family: 'Wendy one';
-    z-index: 0;
-}
-.indo {
-    position: absolute;
-    top: 1120px;
-    left: 550px;
-    right: 0px;
-    color: #051311;
-    font-size: 0.8rem;
-    z-index: 0;
-    margin-right: 2rem;
+@media (max-width: 1024px) {
+    .hand img {
+        max-width: 550px;
+        max-height: 350px;
+        display: block;
+        width: 100%;
+        padding: 0px 70px 110px 0px;
 
+    }
+
+    .title {
+        position: absolute;
+        top: 1050px;
+        left: 550px;
+        right: 0px;
+        color: #051311;
+        font-size: 4rem;
+        font-family: 'Wendy one';
+        z-index: 0;
+    }
+
+    .indo {
+        position: absolute;
+        top: 1120px;
+        left: 550px;
+        right: 0px;
+        color: #051311;
+        font-size: 0.8rem;
+        z-index: 0;
+        margin-right: 2rem;
+
+    }
+
+    .indo2 {
+        position: absolute;
+        top: 1260px;
+        left: 550px;
+        right: 0px;
+        color: #051311;
+        font-size: 0.8rem;
+        z-index: 0;
+
+    }
 }
-.indo2 {
-    position: absolute;
-    top: 1260px;
-    left: 550px;
-    right: 0px;
-    color: #051311;
-    font-size: 0.8rem;
-    z-index: 0;
-  
-}
-}
+
 /*graphic design 1024px*/
 @media (max-width:1024px) {
-.title2 {
-    position: absolute;
-    top: 1450px;
-    left: 325px;
-    right: 320px;
-    text-align: center;
-    color: #ffffff;
-    font-size: 3.5rem;
-    font-family: 'hitchcock';
-    z-index: 0;
+    .title2 {
+        position: absolute;
+        top: 1450px;
+        left: 325px;
+        right: 320px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 3.5rem;
+        font-family: 'hitchcock';
+        z-index: 0;
+    }
 }
-}
+
 /*influence on film industry 1024px*/
-@media (max-width:1024px){
-.industry {
-    background-color: #F6D000;
-    padding: 200px 100px 200px 100px;
+@media (max-width:1024px) {
+    .industry {
+        background-color: #F6D000;
+        padding: 200px 100px 200px 100px;
+    }
+
+    .industry2 {
+        position: absolute;
+        top: 6050px;
+        right: 300px;
+        left: 300px;
+        text-align: right;
+        color: #051311;
+        font-size: 3.4rem;
+        font-family: 'Wendy One';
+        z-index: 0;
+        padding: 0px 0px 100px 0px
+    }
+
+    .industry2 {
+        transform: rotate(-10deg)
+    }
 }
-.industry2 {
-    position: absolute;
-    top: 6050px;
-    right:300px;
-    left: 300px;
-    text-align: right;
-    color: #051311;
-    font-size: 3.4rem;
-    font-family: 'Wendy One';
-    z-index: 0;
-    padding: 0px 0px 100px 0px
-}
-.industry2 {
-    transform: rotate(-10deg)
-}
-}
+
 /*influence 1024px*/
-@media (max-width:1024px){
+@media (max-width:1024px) {
     .army {
         max-width: 1660px;
         max-height: 670px;
@@ -858,14 +981,16 @@ margin-right: 0px;
         margin-left: auto;
         margin-right: auto;
     }
+
     .influ {
         color: #ffffff;
         font-size: 4rem;
         font-family: 'Saira Stencil One';
         z-index: 0;
-    margin-left: 90px;
-    margin-right: 0px;
+        margin-left: 90px;
+        margin-right: 0px;
     }
+
     .lawry-left {
 
         color: #051311;
@@ -876,69 +1001,1076 @@ margin-right: 0px;
         margin-left: 12.5rem;
         padding: 0 0 30px 0;
     }
+
     .lawry-right img {
         max-width: 200px;
         max-height: 220px;
         display: flex;
         width: 100%;
-       position: absolute;
-       right: 230px;
+        position: absolute;
+        right: 230px;
+    }
+
+
+}
+
+/*in conclusion section 1024px*/
+@media (max-width: 1024px) {
+
+    .Conclusion {
+        background-color: #F8A700;
+    }
+
+    .body img {
+        position: absolute;
+        max-width: 600px;
+        max-height: 600px;
+        top: 14800px;
+        right: 0px;
+
+    }
+
+    .clus {
+        position: absolute;
+        top: 14800px;
+        left: 90px;
+        right: 0px;
+        color: #051311;
+        font-size: 5rem;
+        font-family: 'Wendy one';
+        z-index: 0;
+    }
+
+    .con1 {
+        position: absolute;
+        top: 14900px;
+        left: 90px;
+        right: 400px;
+        color: #051311;
+        font-size: 1rem;
+        font-family: 'Univers';
+
+
+    }
+
+    .con2 {
+        position: absolute;
+        top: 15100px;
+        left: 90px;
+        right: 400px;
+        color: #051311;
+        font-size: 1rem;
+        font-family: 'Univers';
+        z-index: 0;
+
+    }
+
+    .con3 {
+        position: absolute;
+        top: 15200px;
+        left: 90px;
+        right: 400px;
+        color: #051311;
+        font-size: 1rem;
+        font-family: 'Univers';
+        z-index: 0;
+
     }
 }
-/*in conclusion section 1024px*/
-@media (max-width: 1024px){
 
-.Conclusion {
-    background-color: #F8A700;
+/*768px*/
+/*title text*/
+@media (max-width: 768px) {
+    .why {
+        position: absolute;
+        top: 30px;
+        left: 250px;
+        right: 0px;
+        color: #DA0000;
+        font-size: 4.5rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .saul {
+        position: absolute;
+        top: 140px;
+        left: 40px;
+        right: 0px;
+        color: #368BD0;
+        font-size: 4.5rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .bass {
+        position: absolute;
+        top: 140px;
+        left: 380px;
+        right: 0px;
+        color: #007D06;
+        font-size: 4.5rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .so {
+        position: absolute;
+        top: 260px;
+        left: 300px;
+        right: 0px;
+        color: #F58020;
+        font-size: 4.3rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .important {
+        position: absolute;
+        top: 260px;
+        left: 400px;
+        right: 0px;
+        color: #F58020;
+        font-size: 4.3rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
 }
-.body img{
-    max-width: 600px;
-    max-height: 600px;
-   position: flex;
-    padding: 0px 0px 0px 320px;
-    
+
+/*quote from saul bass section 768px*/
+@media (max-width: 768px) {
+    .quotation img {
+        max-width: 1500px;
+        max-height: 849px;
+        display: block;
+        width: 100%;
+        padding: 20px 0px 0px 0px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .make {
+        position: absolute;
+        top: 400px;
+        left: 50px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 2rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .thing {
+        position: absolute;
+        top: 450px;
+        left: 50px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 2rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .comma {
+        position: absolute;
+        top: 450px;
+        left: 150px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 2rem;
+        font-family: 'Wendy one';
+        z-index: 0;
+    }
+
+    .if {
+        position: absolute;
+        top: 450px;
+        left: 165px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 2rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .cares {
+        position: absolute;
+        top: 500px;
+        left: 50px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 2rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .dash {
+        position: absolute;
+        top: 500px;
+        left: 150px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 2rem;
+        font-family: 'Wendy One';
+        z-index: 0;
+    }
+
+    .sb {
+        position: absolute;
+        top: 500px;
+        left: 170px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 2rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
 }
-.clus {
-    position: absolute;
-    top: 15600px;
-    left: 90px;
-    right: 0px;
-    color: #051311;
-    font-size: 5rem;
-    font-family: 'Wendy one';
-    z-index: 0;
+
+/*introduction 768px*/
+@media (max-width: 768px) {
+    .hand img {
+        max-width: 450px;
+        max-height: 350px;
+        display: block;
+        width: 100%;
+        padding: 0px 70px 110px 0px;
+
+    }
+
+    .title {
+        position: absolute;
+        top: 680px;
+        left: 400px;
+        right: 0px;
+        color: #051311;
+        font-size: 3rem;
+        font-family: 'Wendy one';
+        z-index: 0;
+    }
+
+    .indo {
+        position: absolute;
+        top: 730px;
+        left: 400px;
+        right: 0px;
+        color: #051311;
+        font-size: 0.8rem;
+        z-index: 0;
+        margin-right: 2rem;
+
+    }
+
+    .indo2 {
+        position: absolute;
+        top: 920px;
+        left: 400px;
+        right: 0px;
+        color: #051311;
+        font-size: 0.8rem;
+        z-index: 0;
+
+    }
 }
-.con1 {
-    position: absolute;
-    top: 15700px;
-    left: 90px;
-    right: 400px;
-    color: #051311;
-    font-size: 1rem;
-    font-family: 'Univers';
-   
-  
+
+/*font styles 768px*/
+@media (max-width:768px) {
+    h3 {
+        font-family: 'Wendy one';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-family: 'Wendy One';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-family: 'Univers';
+        font-weight: 400;
+        font-style: regular;
+        font-size: 1rem;
+    }
 }
-.con2 {
-    position: absolute;
-    top: 15900px;
-    left: 90px;
-    right: 400px;
-    color: #051311;
-    font-size: 1rem;
-    font-family: 'Univers';
-    z-index: 0;
+
+/*graphic design 768px*/
+@media (max-width:768px) {
+    .title2 {
+        position: absolute;
+        top: 1150px;
+        left: 100px;
+        right: 100px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 3rem;
+        font-family: 'hitchcock';
+        z-index: 0;
+    }
+
+    .GraphicDesign p {
+
+        margin: 0 auto 0 auto;
+        padding: 0px 100px 30px 100px;
+
+    }
+
+    .GraphicDesign h3 {
+        margin: 0 auto 0 auto;
+        text-align: left;
+        padding: 10px 100px 30px 100px;
+    }
+
+    .GraphicDesign h4 {
+
+        margin: 0 auto 0 auto;
+        padding: 0px 100px 30px 100px;
+
+    }
+}
+
+/*influence on Film industry 768px*/
+@media (max-width:768px) {
+    .industry2 {
+        position: absolute;
+        top: 5150px;
+        right: 50px;
+        left: 50px;
+        text-align: right;
+        color: #051311;
+        font-size: 4rem;
+        font-family: 'Wendy One';
+        z-index: 0;
+        padding: 0px 140px 50px 90px
+    }
+
+    .industry2 {
+        transform: rotate(-10deg)
+    }
+
+    .Film p {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        padding: 10px 100px 30px 100px;
+
+    }
+
+    .Film h3 {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        text-align: left;
+        padding: 0px 100px 30px 100px;
+    }
+
+    .Film h4 {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        padding: 0px 100px 30px 100px;
+    }
+
+    .casinovideo {
+        aspect-ratio: 16 / 9;
+        width: 400px;
+
+    }
+
+
+    .goodfellas {
+        aspect-ratio: 16 / 9;
+        width: 400px;
+    }
+
+    .Seven {
+        aspect-ratio: 16 / 9;
+        width: 400px;
+    }
+
+    .Story img {
+        max-width: 516px;
+        max-height: 449px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 0px 10px 90px;
+
+    }
+}
+
+/*saul bass's influence section 768px*/
+@media (max-width:768px) {
+    .back {
+        background-color: #368BD0;
+        padding: 400px 0px 0px 100px;
+    }
+
+    .army img {
+        max-width: 516px;
+        max-height: 449px;
+        position: absolute;
+        top: 8500px;
+        left: 150px
+    }
+
+    .influ {
+        color: #ffffff;
+        font-size: 4rem;
+        font-family: 'Saira Stencil One';
+        z-index: 0;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 120px;
+    }
+
+    .Influence p {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        padding: 10px 100px 30px 100px;
+
+    }
+
+    .Influence h3 {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        text-align: left;
+        padding: 0px 100px 30px 100px;
+    }
+
+    .Influence h4 {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        padding: 0px 100px 30px 100px;
+    }
+
+    .lawry-left {
+
+        color: #051311;
+        font-size: 1rem;
+        font-family: 'Univers';
+        z-index: 0;
+        margin-right: 20rem;
+        margin-left: 6.2rem;
+        padding: 0 0 30px 0;
+    }
+
+    .lawry-right img {
+        max-width: 150px;
+        max-height: 180px;
+        display: block;
+        width: 100%;
+        position: absolute;
+        right: 150px;
+    }
+
+    .lawdy img {
+        max-width: 716px;
+        max-height: 649px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 30px 30px 30px;
+        border-radius: 10%;
+        background-repeat: repeat;
+    }
+
+    .Monster {
+        aspect-ratio: 16 / 9;
+        width: 400px;
+    }
+
+    .mad {
+        aspect-ratio: 16 / 9;
+        width: 400px;
+    }
+}
+
+/*conclusion 768px*/
+@media (max-width:768px) {
+    .Conclusion {
+        background-color: #F8A700;
+        padding: 300px;
+    }
+
+    .body img {
+        max-width: 350px;
+        max-height: 400px;
+        position: absolute;
+        right: 0px;
+        top: 11500px;
+    }
+
+    .clus {
+        position: absolute;
+        top: 11450px;
+        left: 40px;
+
+        color: #051311;
+        font-size: 4rem;
+        font-family: 'Wendy one';
+        z-index: 0;
+    }
+
+    .con1 {
+        position: absolute;
+        top: 11520px;
+        left: 40px;
+        right: 250px;
+        color: #051311;
+        font-size: 1rem;
+        font-family: 'Univers';
+
+
+    }
+
+    .con2 {
+        position: absolute;
+        top: 11740px;
+        left: 40px;
+        right: 250px;
+        color: #051311;
+        font-size: 1rem;
+        font-family: 'Univers';
+        z-index: 0;
+
+    }
+
+    .con3 {
+        position: absolute;
+        top: 11850px;
+        left: 40px;
+        right: 250px;
+        color: #051311;
+        font-size: 1rem;
+        font-family: 'Univers';
+        z-index: 0;
+
+    }
+}
+
+/*references 768px*/
+@media (max-width:768px) {
+    .reference {
+        background-color: #202B72;
+    }
+
+    .reference h2 {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        padding: 20px 100px 30px 100px;
+        color: #E9E9E9;
+    }
+
+    .reference p {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        padding: 10px 100px 30px 100px;
+        color: #E9E9E9;
+    }
+}
+
+/*425px*/
+/*title 425px*/
+@media (max-width:425px) {
+    .why {
+        position: absolute;
+        top: 20px;
+        left: 150px;
+        right: 0px;
+        color: #DA0000;
+        font-size: 2.5rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .saul {
+        position: absolute;
+        top: 80px;
+        left: 30px;
+        right: 0px;
+        color: #368BD0;
+        font-size: 2.5rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .bass {
+        position: absolute;
+        top: 80px;
+        left: 210px;
+        right: 0px;
+        color: #007D06;
+        font-size: 2.5rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .so {
+        position: absolute;
+        top: 140px;
+        left: 160px;
+        right: 0px;
+        color: #F58020;
+        font-size: 2.3rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .important {
+        position: absolute;
+        top: 140px;
+        left: 220px;
+        right: 0px;
+        color: #F58020;
+        font-size: 2.3rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
 
 }
-.con3 {
-    position: absolute;
-    top: 16000px;
-    left: 90px;
-    right: 400px;
-    color: #051311;
-    font-size: 1rem;
-    font-family: 'Univers';
-    z-index: 0;
 
+/*quote from saul bass section 425px*/
+@media (max-width: 425px) {
+    .quotation img {
+        max-width: 1500px;
+        max-height: 849px;
+        display: block;
+        width: 100%;
+        padding: 20px 0px 0px 0px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .make {
+        position: absolute;
+        top: 250px;
+        left: 10px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 1.1rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .thing {
+        position: absolute;
+        top: 270px;
+        left: 10px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 1.1rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .comma {
+        position: absolute;
+        top: 270px;
+        left: 66px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 1.1rem;
+        font-family: 'Wendy one';
+        z-index: 0;
+    }
+
+    .if {
+        position: absolute;
+        top: 270px;
+        left: 74px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 1.1rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .cares {
+        position: absolute;
+        top: 290px;
+        left: 10px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 1.1rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
+
+    .dash {
+        position: absolute;
+        top: 290px;
+        left: 65px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 1.1rem;
+        font-family: 'Wendy One';
+        z-index: 0;
+    }
+
+    .sb {
+        position: absolute;
+        top: 290px;
+        left: 80px;
+        right: 0px;
+        color: #ffffff;
+        font-size: 1.1rem;
+        font-family: 'Hitchcock';
+        z-index: 0;
+    }
 }
+
+/*introduction 425px*/
+@media (max-width: 425px) {
+    .hand img {
+        max-width: 200px;
+        max-height: 150px;
+        display: block;
+        width: 100%;
+        padding: 0px 70px 110px 0px;
+
+    }
+
+    .title {
+        position: absolute;
+        top: 380px;
+        left: 200px;
+        right: 0px;
+        color: #051311;
+        font-size: 2rem;
+        font-family: 'Wendy one';
+        z-index: 0;
+    }
+
+    .indo {
+        position: absolute;
+        top: 420px;
+        left: 200px;
+        right: 0px;
+        color: #051311;
+        font-size: 0.5rem;
+        z-index: 0;
+        margin-right: 2rem;
+
+    }
+
+    .indo2 {
+        position: absolute;
+        top: 540px;
+        left: 200px;
+        right: 0px;
+        color: #051311;
+        font-size: 0.5rem;
+        z-index: 0;
+
+    }
+}
+
+/*font styles 425px*/
+@media (max-width:425px) {
+    h3 {
+        font-family: 'Wendy one';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.25rem;
+    }
+
+    h4 {
+        font-family: 'Wendy One';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+    }
+
+    p {
+        font-family: 'Univers';
+        font-weight: 400;
+        font-style: regular;
+        font-size: 0.75rem;
+    }
+}
+
+/*graphic design 425px*/
+@media (max-width: 425px) {
+    .title2 {
+        position: absolute;
+        top: 650px;
+        left: 75px;
+        right: 75px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-family: 'hitchcock';
+        z-index: 0;
+    }
+
+    .GraphicDesign p {
+
+        margin: 0 auto 0 auto;
+        padding: 0px 50px 30px 50px;
+
+    }
+
+    .GraphicDesign h3 {
+        margin: 0 auto 0 auto;
+        text-align: left;
+        padding: 10px 50px 30px 50px;
+    }
+
+    .GraphicDesign h4 {
+
+        margin: 0 auto 0 auto;
+        padding: 0px 50px 30px 50px;
+
+    }
+
+    .album img {
+        max-width: 316px;
+        max-height: 149px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 30px 30px 30px;
+        border-radius: 10%;
+        background-repeat: repeat;
+    }
+}
+
+/*influence on Film industry 425px*/
+@media (max-width:425px) {
+    .industry2 {
+        position: absolute;
+        top: 4300px;
+        right: 15px;
+
+        text-align: right;
+        color: #051311;
+        font-size: 2.5rem;
+        font-family: 'Wendy One';
+        z-index: 0;
+
+    }
+
+    .industry2 {
+        transform: rotate(-10deg)
+    }
+
+    .Film p {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        padding: 10px 50px 30px 50px;
+
+    }
+
+    .Film h3 {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        text-align: left;
+        padding: 0px 50px 30px 50px;
+    }
+
+    .Film h4 {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        padding: 0px 50px 30px 50px;
+    }
+
+    .casinovideo {
+        aspect-ratio: 16 / 9;
+        width: 300px;
+
+    }
+
+
+    .goodfellas {
+        aspect-ratio: 16 / 9;
+        width: 300px;
+    }
+
+    .Seven {
+        aspect-ratio: 16 / 9;
+        width: 300px;
+    }
+
+    .Story img {
+        max-width: 378px;
+        max-height: 349px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 0px 0px 0px;
+
+    }
+}
+
+/*saul bass's influence section 425px*/
+@media (max-width:425px) {
+    .back {
+        background-color: #368BD0;
+        padding: 300px 0px 0px 0px;
+    }
+
+    .army img {
+        max-width: 416px;
+        max-height: 349px;
+        position: absolute;
+        top: 7370px;
+        left: 50px
+    }
+
+    .influ {
+        color: #ffffff;
+        font-size: 2.5rem;
+        font-family: 'Saira Stencil One';
+        z-index: 0;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .Influence p {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        padding: 10px 50px 30px 50px;
+
+    }
+
+    .Influence h3 {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        text-align: left;
+        padding: 0px 50px 30px 50px;
+    }
+
+    .Influence h4 {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        padding: 0px 50px 30px 50px;
+    }
+
+    .lawry-left {
+
+        color: #051311;
+        font-size: 0.75rem;
+        font-family: 'Univers';
+        z-index: 0;
+        margin-right: 12rem;
+        margin-left: 3.2rem;
+        padding: 0 0 30px 0;
+    }
+
+    .lawry-right img {
+        max-width: 100px;
+        max-height: 120px;
+        display: block;
+        width: 100%;
+        position: absolute;
+        right: 70px;
+    }
+
+    .Monster {
+        aspect-ratio: 16 / 9;
+        max-width: 300px;
+    }
+
+    .mad {
+        aspect-ratio: 16 / 9;
+        max-width: 300px;
+    }
+}
+
+/*conclusion 425px*/
+@media (max-width:425px) {
+    .Conclusion {
+        background-color: #F8A700;
+        padding: 300px 0px;
+    }
+
+    .body img {
+        position: absolute;
+        top: 10280px;
+        right: 70px;
+    }
+
+    .clus {
+        position: absolute;
+        top: 10000px;
+        left: 50px;
+
+        color: #051311;
+        font-size: 2rem;
+        font-family: 'Wendy one';
+        z-index: 0;
+    }
+
+    .con1 {
+        position: absolute;
+        top: 10050px;
+        left: 50px;
+        right: 0px;
+        color: #051311;
+        font-size: 0.75rem;
+        font-family: 'Univers';
+
+
+    }
+
+    .con2 {
+        position: absolute;
+        top: 10220px;
+        left: 50px;
+        right: auto;
+        color: #051311;
+        font-size: 0.75rem;
+        font-family: 'Univers';
+        z-index: 0;
+
+    }
+
+    .con3 {
+        position: absolute;
+        top: 10300px;
+        left: 50px;
+        right: 0px;
+        color: #051311;
+        font-size: 0.75rem;
+        font-family: 'Univers';
+        z-index: 0;
+
+    }
+}
+
+@media (max-width:425px) {
+    .reference {
+        background-color: #202B72;
+    }
+
+    .reference h2 {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        padding: 20px 50px 30px 50px;
+        color: #E9E9E9;
+    }
+
+    .reference p {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        padding: 10px 50px 30px 50px;
+        color: #E9E9E9;
+    }
+
+    .jared {
+        background-color: #F6D000;
+    }
+
+    .jared p {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        padding: 10px 50px 30px 50px;
+        color: #051311;
+        text-align: center;
+    }
+
 }
