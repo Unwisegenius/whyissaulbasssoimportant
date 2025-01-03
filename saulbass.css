@@ -5,12 +5,12 @@
 /*imported downloaded fonts Hitchcock & Univers*/
 @font-face {
     font-family: 'Hitchcock';
-    src: url("Fonts/Hitchcock/Regular.ttf");
+    src: url("/Fonts/Hitchcock/Regular.ttf") format('truetype');
 }
 
 @font-face {
     font-family: "Univers";
-    src: url("/Fonts/UniversRegular.ttf");
+    src: url("/Fonts/UniversRegular.ttf") format('truetype');
 }
 
 /* css reset */
