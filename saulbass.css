@@ -30,14 +30,14 @@ body {
 
 /*font styles*/
 h1 {
-    font-family: 'Hitchcock';
+    font-family: 'Hitchcock', Wendy One;
     font-weight: 400;
     font-style: normal;
     font-size: 4rem;
 }
 
 h2 {
-    font-family: 'Hitchcock';
+    font-family: 'Hitchcock', Wendy One;
     font-weight: 400;
     font-style: normal;
     font-size: 2rem;
@@ -591,13 +591,13 @@ p {
 
 .body img {
     position: absolute;
-    top: 13400px;
+    top: 13330px;
     right: 30px;
 }
 
 .clus {
     position: absolute;
-    top: 13500px;
+    top: 13400px;
     left: 100px;
     right: 0px;
     color: #051311;
@@ -608,7 +608,7 @@ p {
 
 .con1 {
     position: absolute;
-    top: 13625px;
+    top: 13525px;
     left: 100px;
     right: 500px;
     color: #051311;
@@ -620,7 +620,7 @@ p {
 
 .con2 {
     position: absolute;
-    top: 13800px;
+    top: 13700px;
     left: 100px;
     right: 500px;
     color: #051311;
@@ -632,7 +632,7 @@ p {
 
 .con3 {
     position: absolute;
-    top: 13900px;
+    top: 13800px;
     left: 100px;
     right: 500px;
     color: #051311;
@@ -762,7 +762,7 @@ p {
     .bass {
         position: absolute;
         top: 280px;
-        left: 510px;
+        left: 500px;
         right: 0px;
         color: #007D06;
         font-size: 6rem;
@@ -773,7 +773,7 @@ p {
     .so {
         position: absolute;
         top: 430px;
-        left: 400px;
+        left: 380px;
         right: 0px;
         color: #F58020;
         font-size: 5.5rem;
@@ -784,7 +784,7 @@ p {
     .important {
         position: absolute;
         top: 430px;
-        left: 550px;
+        left: 530px;
         right: 0px;
         color: #F58020;
         font-size: 5.5rem;
@@ -1116,8 +1116,8 @@ p {
 
     .so {
         position: absolute;
-        top: 260px;
-        left: 300px;
+        top: 250px;
+        left: 280px;
         right: 0px;
         color: #F58020;
         font-size: 4.3rem;
@@ -1127,8 +1127,8 @@ p {
 
     .important {
         position: absolute;
-        top: 260px;
-        left: 400px;
+        top: 250px;
+        left: 380px;
         right: 0px;
         color: #F58020;
         font-size: 4.3rem;
