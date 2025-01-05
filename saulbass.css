@@ -343,7 +343,7 @@ p {
 
 /*role in graphic design*/
 .vertigo img {
-    max-width: 1460px;
+    max-width: 1512px;
     max-height: 470px;
     display: block;
     width: 100%;
@@ -598,7 +598,7 @@ p {
 
 .clus {
     position: absolute;
-    top: 13400px;
+    top: 13385px;
     left: 100px;
     right: 0px;
     color: #051311;
@@ -609,7 +609,7 @@ p {
 
 .con1 {
     position: absolute;
-    top: 13525px;
+    top: 13500px;
     left: 100px;
     right: 500px;
     color: #051311;
@@ -621,7 +621,7 @@ p {
 
 .con2 {
     position: absolute;
-    top: 13700px;
+    top: 13675px;
     left: 100px;
     right: 500px;
     color: #051311;
@@ -2999,3 +2999,4 @@ p {
         color: #E9E9E9;
     }
 }
+/*1512 fixes*/
