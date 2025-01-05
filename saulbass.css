@@ -1,6 +1,7 @@
-/*import fonts from google fonts Wendy One Stencil */
+/*import fonts from google fonts Wendy One, Stencil and roboto */
 @import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&family=Wendy+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /*imported downloaded fonts Hitchcock & Univers*/
 @font-face {
@@ -58,7 +59,7 @@ h4 {
 }
 
 p {
-    font-family: 'Univers';
+    font-family: Univers, Roboto;
     font-weight: 400;
     font-style: regular;
     font-size: 1.25rem;
@@ -225,7 +226,7 @@ p {
     right: 0px;
     color: #ffffff;
     font-size: 3rem;
-    font-family: 'Hitchcock';
+    font-family: Hitchcock, Wendy One;
     z-index: 0;
 }
 
@@ -236,7 +237,7 @@ p {
     right: 0px;
     color: #ffffff;
     font-size: 3rem;
-    font-family: 'Hitchcock';
+    font-family: Hitchcock, Wendy One;
     z-index: 0;
 }
 
@@ -258,7 +259,7 @@ p {
     right: 0px;
     color: #ffffff;
     font-size: 3rem;
-    font-family: 'Hitchcock';
+    font-family: Hitchcock, Wendy One;
     z-index: 0;
 }
 
@@ -269,7 +270,7 @@ p {
     right: 0px;
     color: #ffffff;
     font-size: 3rem;
-    font-family: 'Hitchcock';
+    font-family: Hitchcock, Wendy One;
     z-index: 0;
 }
 
@@ -291,7 +292,7 @@ p {
     right: 0px;
     color: #ffffff;
     font-size: 3rem;
-    font-family: 'Hitchcock';
+    font-family: Hitchcock, Wendy One;
     z-index: 0;
 }
 
@@ -323,7 +324,7 @@ p {
     right: 0px;
     color: #051311;
     font-size: 1.25rem;
-    font-family: 'Univers';
+    font-family: Univers, Roboto;
     z-index: 0;
     margin-right: 3rem;
 }
@@ -335,7 +336,7 @@ p {
     right: 0px;
     color: #051311;
     font-size: 1.25rem;
-    font-family: 'Univers';
+    font-family: Univers, Roboto;
     z-index: 0;
     margin-right: 3rem;
 }
@@ -357,7 +358,7 @@ p {
     text-align: center;
     color: #ffffff;
     font-size: 6rem;
-    font-family: 'hitchcock';
+    font-family: Hitchcock, Wendy One;
     z-index: 0;
 }
 
@@ -546,7 +547,7 @@ p {
 
     color: #051311;
     font-size: 1.25rem;
-    font-family: 'Univers';
+    font-family: Univers, Roboto;
     z-index: 0;
     margin-right: 55rem;
     margin-left: 12.5rem;
@@ -613,7 +614,7 @@ p {
     right: 500px;
     color: #051311;
     font-size: 1.25rem;
-    font-family: 'Univers';
+    font-family: Univers, Roboto;
     z-index: 0;
     margin-right: 3rem;
 }
@@ -625,7 +626,7 @@ p {
     right: 500px;
     color: #051311;
     font-size: 1.25rem;
-    font-family: 'Univers';
+    font-family: Univers, Roboto;
     z-index: 0;
     margin-right: 3rem;
 }
@@ -637,7 +638,7 @@ p {
     right: 500px;
     color: #051311;
     font-size: 1.25rem;
-    font-family: 'Univers';
+    font-family: Univers, Roboto;
     z-index: 0;
     margin-right: 3rem;
 }
