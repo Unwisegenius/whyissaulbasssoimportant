@@ -84,7 +84,6 @@ p {
     display: block;
     font-family: 'Wendy One';
     font-size: 20px;
-    ;
     color: #E9E9E9;
 
 }
@@ -219,6 +218,11 @@ p {
 
 }
 
+.make, .thing, .comma, .if, .cares, .dash, .sb {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    animation-delay: 2s; /* delayed*/
+}
 .make {
     position: absolute;
     top: 900px;
@@ -295,7 +299,11 @@ p {
     font-family: Hitchcock, Wendy One;
     z-index: 0;
 }
-
+/* Keyframe Animation/ fade from the left */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateX(-50px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
 /*Introduction*/
 .hand img {
     max-width: 600px;
@@ -309,7 +317,7 @@ p {
 .title {
     position: absolute;
     top: 1300px;
-    left: 750px;
+    left: 650px;
     right: 0px;
     color: #051311;
     font-size: 5rem;
