@@ -744,7 +744,7 @@ p {
 
     }
 }
-@media (max-width:1470px) {
+@media (max-width:1493px) {
     .Conclusion {
         background-color: #F8A700;
         padding: 600px 0px 0px 0px;
@@ -758,7 +758,7 @@ p {
     
     .clus {
         position: absolute;
-        top: 13505px;
+        top: 13305px;
         left: 100px;
         right: 0px;
         color: #051311;
@@ -769,7 +769,7 @@ p {
     
     .con1 {
         position: absolute;
-        top: 13600px;
+        top: 13420px;
         left: 100px;
         right: 500px;
         color: #051311;
@@ -781,7 +781,7 @@ p {
     
     .con2 {
         position: absolute;
-        top: 13775px;
+        top: 13605px;
         left: 100px;
         right: 500px;
         color: #051311;
@@ -793,7 +793,7 @@ p {
     
     .con3 {
         position: absolute;
-        top: 13900px;
+        top: 13700px;
         left: 100px;
         right: 500px;
         color: #051311;
