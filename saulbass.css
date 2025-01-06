@@ -684,6 +684,126 @@ p {
 }
 
 /*responsiveness*/
+/*multiple browser fixes 1512px*/
+/*conclusion 1512px*/
+@media (max-width:1512px) {
+    .Conclusion {
+        background-color: #F8A700;
+        padding: 300px 0px;
+    }
+
+    .body img {
+        position: absolute;
+        top: 13175px;
+        right: 30px;
+    }
+
+    .clus {
+        position: absolute;
+        top: 13260px;
+        left: 50px;
+        color: #051311;
+        font-size: 5rem;
+        font-family: 'Wendy one';
+        z-index: 0;
+    }
+
+    .con1 {
+        position: absolute;
+        top: 13340px;
+        left: 50px;
+        right: 500px;
+        color: #051311;
+        font-size: 1.25rem;
+        font-family: Univers, Roboto;
+
+
+    }
+
+    .con2 {
+        position: absolute;
+        top: 13525px;
+        left: 50px;
+        right: 500px;
+        color: #051311;
+        font-size: 1.25rem;
+        font-family: Univers, Roboto;
+        z-index: 0;
+
+    }
+
+    .con3 {
+        position: absolute;
+        top: 13620px;
+        left: 50px;
+        right: 500px;
+        color: #051311;
+        font-size: 1.25rem;
+        font-family: Univers, Roboto;
+        z-index: 0;
+
+    }
+}
+/*in conclusion section1440px*/
+@media (max-width:1440px) {
+.Conclusion {
+    background-color: #F8A700;
+    padding: 600px 0px 0px 0px;
+}
+
+.body img {
+    position: absolute;
+    top: 13330px;
+    right: 30px;
+}
+
+.clus {
+    position: absolute;
+    top: 13385px;
+    left: 100px;
+    right: 0px;
+    color: #051311;
+    font-size: 7rem;
+    font-family: 'Wendy One';
+    z-index: 0;
+}
+
+.con1 {
+    position: absolute;
+    top: 13500px;
+    left: 100px;
+    right: 500px;
+    color: #051311;
+    font-size: 1.25rem;
+    font-family: Univers, Roboto;
+    z-index: 0;
+    margin-right: 3rem;
+}
+
+.con2 {
+    position: absolute;
+    top: 13675px;
+    left: 100px;
+    right: 500px;
+    color: #051311;
+    font-size: 1.25rem;
+    font-family: Univers, Roboto;
+    z-index: 0;
+    margin-right: 3rem;
+}
+
+.con3 {
+    position: absolute;
+    top: 13800px;
+    left: 100px;
+    right: 500px;
+    color: #051311;
+    font-size: 1.25rem;
+    font-family: Univers, Roboto;
+    z-index: 0;
+    margin-right: 3rem;
+}
+}
 /*side bar menu*/
 @media(max-width:768px) {
     .hideOnMobile {
@@ -3005,124 +3125,4 @@ p {
         padding: 10px 50px 10px 50px;
         color: #E9E9E9;
     }
-}
-/*multiple browser fixes 1512px*/
-/*conclusion 1512px*/
-@media (max-width:1512px) {
-    .Conclusion {
-        background-color: #F8A700;
-        padding: 300px 0px;
-    }
-
-    .body img {
-        position: absolute;
-        top: 13175px;
-        right: 30px;
-    }
-
-    .clus {
-        position: absolute;
-        top: 13260px;
-        left: 50px;
-        color: #051311;
-        font-size: 5rem;
-        font-family: 'Wendy one';
-        z-index: 0;
-    }
-
-    .con1 {
-        position: absolute;
-        top: 13340px;
-        left: 50px;
-        right: 500px;
-        color: #051311;
-        font-size: 1.25rem;
-        font-family: Univers, Roboto;
-
-
-    }
-
-    .con2 {
-        position: absolute;
-        top: 13525px;
-        left: 50px;
-        right: 500px;
-        color: #051311;
-        font-size: 1.25rem;
-        font-family: Univers, Roboto;
-        z-index: 0;
-
-    }
-
-    .con3 {
-        position: absolute;
-        top: 13620px;
-        left: 50px;
-        right: 500px;
-        color: #051311;
-        font-size: 1.25rem;
-        font-family: Univers, Roboto;
-        z-index: 0;
-
-    }
-}
-/*in conclusion section1440px*/
-@media (max-width:1440px) {
-.Conclusion {
-    background-color: #F8A700;
-    padding: 600px 0px 0px 0px;
-}
-
-.body img {
-    position: absolute;
-    top: 13330px;
-    right: 30px;
-}
-
-.clus {
-    position: absolute;
-    top: 13385px;
-    left: 100px;
-    right: 0px;
-    color: #051311;
-    font-size: 7rem;
-    font-family: 'Wendy One';
-    z-index: 0;
-}
-
-.con1 {
-    position: absolute;
-    top: 13500px;
-    left: 100px;
-    right: 500px;
-    color: #051311;
-    font-size: 1.25rem;
-    font-family: Univers, Roboto;
-    z-index: 0;
-    margin-right: 3rem;
-}
-
-.con2 {
-    position: absolute;
-    top: 13675px;
-    left: 100px;
-    right: 500px;
-    color: #051311;
-    font-size: 1.25rem;
-    font-family: Univers, Roboto;
-    z-index: 0;
-    margin-right: 3rem;
-}
-
-.con3 {
-    position: absolute;
-    top: 13800px;
-    left: 100px;
-    right: 500px;
-    color: #051311;
-    font-size: 1.25rem;
-    font-family: Univers, Roboto;
-    z-index: 0;
-    margin-right: 3rem;
-}
 }
