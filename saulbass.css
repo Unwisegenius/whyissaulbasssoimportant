@@ -684,9 +684,9 @@ p {
 }
 
 /*responsiveness*/
-/*multiple browser fixes 1512px*/
-/*conclusion 1512px*/
-@media (max-width:1512px) {
+/*multiple browser fixes 1550px*/
+/*conclusion 1550px*/
+@media (max-width:1550px) {
     .Conclusion {
         background-color: #F8A700;
         padding: 300px 0px;
