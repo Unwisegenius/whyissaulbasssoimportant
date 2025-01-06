@@ -744,6 +744,66 @@ p {
 
     }
 }
+/*1469px*/
+@media (max-width:1469px) {
+    .Conclusion {
+        background-color: #F8A700;
+        padding: 600px 0px 0px 0px;
+    }
+    
+    .body img {
+        position: absolute;
+        top: 13300px;
+        right: 30px;
+    }
+    
+    .clus {
+        position: absolute;
+        top: 13395px;
+        left: 100px;
+        right: 0px;
+        color: #051311;
+        font-size: 7rem;
+        font-family: 'Wendy One';
+        z-index: 0;
+    }
+    
+    .con1 {
+        position: absolute;
+        top: 13510px;
+        left: 100px;
+        right: 500px;
+        color: #051311;
+        font-size: 1.25rem;
+        font-family: Univers, Roboto;
+        z-index: 0;
+        margin-right: 3rem;
+    }
+    
+    .con2 {
+        position: absolute;
+        top: 13695px;
+        left: 100px;
+        right: 500px;
+        color: #051311;
+        font-size: 1.25rem;
+        font-family: Univers, Roboto;
+        z-index: 0;
+        margin-right: 3rem;
+    }
+    
+    .con3 {
+        position: absolute;
+        top: 13790px;
+        left: 100px;
+        right: 500px;
+        color: #051311;
+        font-size: 1.25rem;
+        font-family: Univers, Roboto;
+        z-index: 0;
+        margin-right: 3rem;
+    }
+    }
 @media (max-width:1435px) {
     .Conclusion {
         background-color: #F8A700;
@@ -878,65 +938,7 @@ p {
     }
     
 }
-@media (max-width:1435px) {
-    .Conclusion {
-        background-color: #F8A700;
-        padding: 600px 0px 0px 0px;
-    }
-    
-    .body img {
-        position: absolute;
-        top: 13300px;
-        right: 30px;
-    }
-    
-    .clus {
-        position: absolute;
-        top: 13435px;
-        left: 100px;
-        right: 0px;
-        color: #051311;
-        font-size: 7rem;
-        font-family: 'Wendy One';
-        z-index: 0;
-    }
-    
-    .con1 {
-        position: absolute;
-        top: 13540px;
-        left: 100px;
-        right: 500px;
-        color: #051311;
-        font-size: 1.25rem;
-        font-family: Univers, Roboto;
-        z-index: 0;
-        margin-right: 3rem;
-    }
-    
-    .con2 {
-        position: absolute;
-        top: 13730px;
-        left: 100px;
-        right: 500px;
-        color: #051311;
-        font-size: 1.25rem;
-        font-family: Univers, Roboto;
-        z-index: 0;
-        margin-right: 3rem;
-    }
-    
-    .con3 {
-        position: absolute;
-        top: 13830px;
-        left: 100px;
-        right: 500px;
-        color: #051311;
-        font-size: 1.25rem;
-        font-family: Univers, Roboto;
-        z-index: 0;
-        margin-right: 3rem;
-    }
-    }
+
 /*side bar menu*/
 @media(max-width:768px) {
     .hideOnMobile {
