@@ -753,13 +753,13 @@ p {
     
     .body img {
         position: absolute;
-        top: 13300px;
+        top: 13400px;
         right: 30px;
     }
     
     .clus {
         position: absolute;
-        top: 13395px;
+        top: 13495px;
         left: 100px;
         right: 0px;
         color: #051311;
@@ -770,7 +770,7 @@ p {
     
     .con1 {
         position: absolute;
-        top: 13510px;
+        top: 13610px;
         left: 100px;
         right: 500px;
         color: #051311;
@@ -782,7 +782,7 @@ p {
     
     .con2 {
         position: absolute;
-        top: 13695px;
+        top: 13795px;
         left: 100px;
         right: 500px;
         color: #051311;
@@ -794,7 +794,7 @@ p {
     
     .con3 {
         position: absolute;
-        top: 13790px;
+        top: 13890px;
         left: 100px;
         right: 500px;
         color: #051311;
