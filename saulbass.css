@@ -2673,8 +2673,8 @@ p {
         position: relative;
         float: left;
         margin: 0px;
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
 
     .title {
@@ -2698,7 +2698,7 @@ p {
         font-size: 0.4rem;
         font-family: Univers, Roboto;
         margin-top: 10px;
-        margin-left: 120px;
+        margin-left: 100px;
         margin-right: 20px;
         padding-bottom: 30px;
     }
