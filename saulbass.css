@@ -1004,7 +1004,7 @@ p {
 
         color: #051311;
         font-size: 1.25rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         z-index: 0;
         margin-right: 30rem;
         margin-left: 12.5rem;
@@ -1057,7 +1057,7 @@ p {
         right: 400px;
         color: #051311;
         font-size: 1rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
 
 
     }
@@ -1069,7 +1069,7 @@ p {
         right: 400px;
         color: #051311;
         font-size: 1rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         z-index: 0;
 
     }
@@ -1081,7 +1081,7 @@ p {
         right: 400px;
         color: #051311;
         font-size: 1rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         z-index: 0;
 
     }
@@ -1300,7 +1300,7 @@ p {
     }
 
     p {
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         font-weight: 400;
         font-style: regular;
         font-size: 1rem;
@@ -1458,7 +1458,7 @@ p {
 
         color: #051311;
         font-size: 1rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         z-index: 0;
         margin-right: 20rem;
         margin-left: 6.2rem;
@@ -1529,7 +1529,7 @@ p {
         right: 250px;
         color: #051311;
         font-size: 1rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
 
 
     }
@@ -1541,7 +1541,7 @@ p {
         right: 250px;
         color: #051311;
         font-size: 1rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         z-index: 0;
 
     }
@@ -1553,7 +1553,7 @@ p {
         right: 250px;
         color: #051311;
         font-size: 1rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         z-index: 0;
 
     }
@@ -1853,7 +1853,6 @@ p {
         position: absolute;
         top: 4300px;
         right: 15px;
-
         text-align: right;
         color: #051311;
         font-size: 2.5rem;
@@ -1963,7 +1962,7 @@ p {
 
         color: #051311;
         font-size: 0.75rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         z-index: 0;
         margin-right: 12rem;
         margin-left: 3.2rem;
@@ -2021,7 +2020,7 @@ p {
         right: 0px;
         color: #051311;
         font-size: 0.75rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
 
 
     }
@@ -2033,7 +2032,7 @@ p {
         right: auto;
         color: #051311;
         font-size: 0.75rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         z-index: 0;
 
     }
@@ -2045,7 +2044,7 @@ p {
         right: 0px;
         color: #051311;
         font-size: 0.75rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         z-index: 0;
 
     }
@@ -2294,7 +2293,7 @@ p {
     }
 
     p {
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         font-weight: 400;
         font-style: regular;
         font-size: 0.5rem;
@@ -2487,7 +2486,7 @@ p {
 
         color: #051311;
         font-size: 0.5rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         z-index: 0;
         margin-right: 12rem;
         margin-left: 3.2rem;
@@ -2544,7 +2543,7 @@ p {
         right: 0px;
         color: #051311;
         font-size: 0.5rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
 
 
     }
@@ -2556,7 +2555,7 @@ p {
         right: auto;
         color: #051311;
         font-size: 0.5rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         z-index: 0;
 
     }
@@ -2568,7 +2567,7 @@ p {
         right: 0px;
         color: #051311;
         font-size: 0.5rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         z-index: 0;
 
     }
@@ -2892,7 +2891,7 @@ p {
 
         color: #051311;
         font-size: 0.5rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         z-index: 0;
         margin-right: 9rem;
         margin-left: 3.2rem;
@@ -2958,7 +2957,7 @@ p {
         right: 0px;
         color: #051311;
         font-size: 0.5rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
 
 
     }
@@ -2970,7 +2969,7 @@ p {
         right: auto;
         color: #051311;
         font-size: 0.5rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         z-index: 0;
 
     }
@@ -2982,7 +2981,7 @@ p {
         right: 0px;
         color: #051311;
         font-size: 0.5rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         z-index: 0;
 
     }
@@ -3038,7 +3037,7 @@ p {
         right: 500px;
         color: #051311;
         font-size: 1.25rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
 
 
     }
@@ -3050,7 +3049,7 @@ p {
         right: 500px;
         color: #051311;
         font-size: 1.25rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         z-index: 0;
 
     }
@@ -3062,8 +3061,68 @@ p {
         right: 500px;
         color: #051311;
         font-size: 1.25rem;
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         z-index: 0;
 
     }
+}
+/*in conclusion section1440px*/
+@media (max-width:1440px) {
+.Conclusion {
+    background-color: #F8A700;
+    padding: 600px 0px 0px 0px;
+}
+
+.body img {
+    position: absolute;
+    top: 13330px;
+    right: 30px;
+}
+
+.clus {
+    position: absolute;
+    top: 13385px;
+    left: 100px;
+    right: 0px;
+    color: #051311;
+    font-size: 7rem;
+    font-family: 'Wendy One';
+    z-index: 0;
+}
+
+.con1 {
+    position: absolute;
+    top: 13500px;
+    left: 100px;
+    right: 500px;
+    color: #051311;
+    font-size: 1.25rem;
+    font-family: Univers, Roboto;
+    z-index: 0;
+    margin-right: 3rem;
+}
+
+.con2 {
+    position: absolute;
+    top: 13675px;
+    left: 100px;
+    right: 500px;
+    color: #051311;
+    font-size: 1.25rem;
+    font-family: Univers, Roboto;
+    z-index: 0;
+    margin-right: 3rem;
+}
+
+.con3 {
+    position: absolute;
+    top: 13800px;
+    left: 100px;
+    right: 500px;
+    color: #051311;
+    font-size: 1.25rem;
+    font-family: Univers, Roboto;
+    z-index: 0;
+    margin-right: 3rem;
+}
 }
