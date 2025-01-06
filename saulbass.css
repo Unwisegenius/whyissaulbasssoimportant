@@ -597,26 +597,26 @@ p {
     font-size: 6rem;
     font-family: 'Wendy One';
     margin: 50px 100px;
-    z-index: 1;
+
 }
 
 .con1 {
     font-size: 1.25rem;
     font-family: Univers, Roboto;
     margin: 20px 100px; 
-    z-index: 1;
+   
 }
 .con2 {
     font-size: 1.25rem;
     font-family: Univers, Roboto;
     margin: 20px 100px;
-    z-index: 1; 
+
 }
 .con3 {
     font-size: 1.25rem;
     font-family: Univers, Roboto;
     margin: 20px 100px;
-    z-index: 1; 
+   
 }
 
 .con1 { margin-top: 50px; }
