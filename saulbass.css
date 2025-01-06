@@ -317,25 +317,26 @@ p {
 .title {
     font-size: 6rem;
     font-family: 'Wendy One';
-    margin: 50px 100px;
-    z-index: 1;
+    margin-top: 50px;
+    margin-left: 100px;
+
 }
 
 .indo {
     font-size: 1.25rem;
     font-family: Univers, Roboto;
-    margin: 20px 100px; 
-    z-index: 1;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 50px;
+
 }
 .indo2 {
     font-size: 1.25rem;
     font-family: Univers, Roboto;
-    margin: 20px 100px;
-    z-index: 1; 
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 50px;
 }
-
-.indo { margin-top: 50px; }
-.indo2 { margin-top: 30px; }
 
 /*role in graphic design*/
 .vertigo img {
@@ -431,7 +432,7 @@ p {
 
 .industry2 {
     position: absolute;
-    top: 5850px;
+    top: 5910px;
     right: 300px;
     left: 300px;
     text-align: right;
@@ -582,13 +583,13 @@ p {
 /*conclusion*/
 .Conclusion {
     background-color: #F8A700;
-    padding: 100px 0px; 
+    padding: 10px 0px 0px 0px 
 }
 
 .body img {
     position: relative;
     float: right;
-    margin: 20px; 
+    margin-top: 20px; 
     width: auto; 
     height: auto;
   }
@@ -596,32 +597,33 @@ p {
 .clus {
     font-size: 6rem;
     font-family: 'Wendy One';
-    margin: 50px 100px;
+    margin-top: 50px;
+    margin-left: 100px;
 
 }
 
 .con1 {
     font-size: 1.25rem;
     font-family: Univers, Roboto;
-    margin: 20px 100px; 
+    margin-top: 20px;
+    margin-left: 100px;
+    
    
 }
 .con2 {
     font-size: 1.25rem;
     font-family: Univers, Roboto;
-    margin: 20px 100px;
+    margin-top: 20px;
+    margin-left: 100px;
 
 }
 .con3 {
     font-size: 1.25rem;
     font-family: Univers, Roboto;
-    margin: 20px 100px;
-   
+    margin-top: 20px;
+    margin-left: 100px;
+   padding: 0px 0px 80px;
 }
-
-.con1 { margin-top: 50px; }
-.con2 { margin-top: 30px; }
-.con3 { margin-top: 30px; }
 
 /*references*/
 .reference {
