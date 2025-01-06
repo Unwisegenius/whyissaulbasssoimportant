@@ -804,6 +804,21 @@ p {
     margin-right: 3rem;
 }
 }
+/*Role in graphic design 1410*/
+@media (max-width:1410px) {
+    .title2 {
+        position: absolute;
+        top: 1900px;
+        left: 325px;
+        right: 320px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 5.5rem;
+        font-family: Hitchcock, Wendy One;
+        z-index: 0;
+    }
+    
+}
 /*side bar menu*/
 @media(max-width:768px) {
     .hideOnMobile {
