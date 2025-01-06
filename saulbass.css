@@ -218,11 +218,19 @@ p {
 
 }
 
-.make, .thing, .comma, .if, .cares, .dash, .sb {
+.make,
+.thing,
+.comma,
+.if,
+.cares,
+.dash,
+.sb {
     opacity: 0;
     animation: fadeIn 2s forwards;
-    animation-delay: 2s; /* to add a short delay*/
+    animation-delay: 2s;
+    /* to add a short delay*/
 }
+
 .make {
     position: absolute;
     top: 900px;
@@ -299,20 +307,29 @@ p {
     font-family: Hitchcock, Wendy One;
     z-index: 0;
 }
+
 /*Animation*/
 @keyframes fadeIn {
-    0% { opacity: 0; transform: translateX(-50px); }
-    100% { opacity: 1; transform: translateX(0); }
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
+
 /*Introduction*/
 
 .hand img {
     position: relative;
     float: left;
-    margin: 0px; 
-    width: 500px; 
+    margin: 0px;
+    width: 500px;
     height: 500px;
-  }
+}
 
 .title {
     font-size: 6rem;
@@ -330,6 +347,7 @@ p {
     margin-right: 50px;
 
 }
+
 .indo2 {
     font-size: 1.25rem;
     font-family: Univers, Roboto;
@@ -580,19 +598,20 @@ p {
     aspect-ratio: 16 / 9;
     width: 800px;
 }
+
 /*conclusion*/
 .Conclusion {
     background-color: #F8A700;
-    padding: 10px 0px 0px 0px 
+    padding: 10px 0px 0px 0px
 }
 
 .body img {
     position: relative;
     float: right;
-    margin-top: 20px; 
-    width: auto; 
+    margin-top: 20px;
+    width: auto;
     height: auto;
-  }
+}
 
 .clus {
     font-size: 6rem;
@@ -607,9 +626,10 @@ p {
     font-family: Univers, Roboto;
     margin-top: 20px;
     margin-left: 100px;
-    
-   
+
+
 }
+
 .con2 {
     font-size: 1.25rem;
     font-family: Univers, Roboto;
@@ -617,12 +637,13 @@ p {
     margin-left: 100px;
 
 }
+
 .con3 {
     font-size: 1.25rem;
     font-family: Univers, Roboto;
     margin-top: 20px;
     margin-left: 100px;
-   padding: 0px 0px 80px;
+    padding: 0px 0px 80px;
 }
 
 /*references*/
@@ -672,7 +693,7 @@ p {
         font-family: Hitchcock, Wendy One;
         z-index: 0;
     }
-    
+
 }
 
 /*side bar menu*/
@@ -890,27 +911,28 @@ p {
     .hand img {
         position: relative;
         float: left;
-        margin: 0px; 
-        width: 400px; 
+        margin: 0px;
+        width: 400px;
         height: 400px;
-      }
-    
+    }
+
     .title {
         font-size: 5rem;
         font-family: 'Wendy One';
         margin-top: 50px;
         margin-left: 100px;
-    
+
     }
-    
+
     .indo {
         font-size: 1rem;
         font-family: Univers, Roboto;
         margin-top: 20px;
         margin-left: 100px;
         margin-right: 50px;
-    
+
     }
+
     .indo2 {
         font-size: 1rem;
         font-family: Univers, Roboto;
@@ -919,6 +941,7 @@ p {
         margin-right: 50px;
     }
 }
+
 /*graphic design 1024px*/
 @media (max-width:1024px) {
     .title2 {
@@ -1008,48 +1031,51 @@ p {
 
     .Conclusion {
         background-color: #F8A700;
-        padding: 10px 0px 0px 0px 
+        padding: 10px 0px 0px 0px
     }
-    
+
     .body img {
         position: relative;
         float: right;
-        margin-top: 50px; 
-        width: 400px; 
+        margin-top: 50px;
+        width: 400px;
         height: 400px;
-      }
-    
+    }
+
     .clus {
         font-size: 5rem;
         font-family: 'Wendy One';
         margin-top: 50px;
         margin-left: 100px;
-    
+
     }
-    
+
     .con1 {
         font-size: 1.25rem;
         font-family: Univers, Roboto;
         margin-top: 20px;
         margin-left: 100px;
-        
-       
+
+
     }
+
     .con2 {
         font-size: 1.25rem;
         font-family: Univers, Roboto;
         margin-top: 20px;
         margin-left: 100px;
-    
+
     }
+
     .con3 {
         font-size: 1.25rem;
         font-family: Univers, Roboto;
         margin-top: 20px;
         margin-left: 100px;
-       padding: 0px 0px 80px;
+        padding: 0px 0px 80px;
     }
 }
+
 /*768px*/
 /*title text*/
 @media (max-width: 768px) {
@@ -1205,27 +1231,28 @@ p {
     .hand img {
         position: relative;
         float: left;
-        margin: 0px; 
-        width: 300px; 
+        margin: 0px;
+        width: 300px;
         height: 300px;
-      }
-    
+    }
+
     .title {
         font-size: 4rem;
         font-family: 'Wendy One';
         margin-top: 50px;
         margin-left: 100px;
-    
+
     }
-    
+
     .indo {
         font-size: 0.75rem;
         font-family: Univers, Roboto;
         margin-top: 10px;
         margin-left: 100px;
         margin-right: 50px;
-    
+
     }
+
     .indo2 {
         font-size: 0.75rem;
         font-family: Univers, Roboto;
@@ -1453,50 +1480,53 @@ p {
 @media (max-width:768px) {
     .Conclusion {
         background-color: #F8A700;
-        padding: 10px 0px 0px 0px 
+        padding: 10px 0px 0px 0px
     }
-    
+
     .body img {
         position: relative;
         float: right;
-        margin-top: 100px; 
-        
-        width: 300px; 
+        margin-top: 100px;
+
+        width: 300px;
         height: 300px;
-      }
-    
+    }
+
     .clus {
         font-size: 3.5rem;
         font-family: 'Wendy One';
         margin-top: 50px;
         margin-left: 50px;
-    
+
     }
-    
+
     .con1 {
         font-size: 1rem;
         font-family: Univers, Roboto;
         margin-top: 20px;
         margin-left: 50px;
-    
-        
-       
+
+
+
     }
+
     .con2 {
         font-size: 1rem;
         font-family: Univers, Roboto;
         margin-top: 20px;
         margin-left: 50px;
-    
+
     }
+
     .con3 {
         font-size: 1rem;
         font-family: Univers, Roboto;
         margin-top: 20px;
         margin-left: 50px;
-       padding: 0px 0px 80px;
+        padding: 0px 0px 80px;
     }
 }
+
 /*references 768px*/
 @media (max-width:768px) {
     .reference {
@@ -1674,27 +1704,28 @@ p {
     .hand img {
         position: relative;
         float: left;
-        margin: 0px; 
-        width: 200px; 
+        margin: 0px;
+        width: 200px;
         height: 200px;
-      }
-    
+    }
+
     .title {
         font-size: 2rem;
         font-family: 'Wendy One';
         margin-top: 10px;
         margin-left: 100px;
-    
+
     }
-    
+
     .indo {
         font-size: 0.4rem;
         font-family: Univers, Roboto;
         margin-top: 10px;
         margin-left: 100px;
         margin-right: 20px;
-    
+
     }
+
     .indo2 {
         font-size: 0.4rem;
         font-family: Univers, Roboto;
@@ -1738,7 +1769,8 @@ p {
         text-align: center;
         color: #ffffff;
         font-size: 1.75rem;
-        font-family: Hitchcock, Wendy One;;
+        font-family: Hitchcock, Wendy One;
+        ;
         z-index: 0;
     }
 
@@ -1920,17 +1952,17 @@ p {
 @media (max-width:425px) {
     .Conclusion {
         background-color: #F8A700;
-        padding: 10px 0px 0px 0px 
+        padding: 10px 0px 0px 0px
     }
-    
+
     .body img {
         position: relative;
         float: left;
-        margin-top: 50px; 
-        width: 400px; 
+        margin-top: 50px;
+        width: 400px;
         height: 300px;
-      }
-    
+    }
+
     .clus {
         font-size: 2.5rem;
         font-family: 'Wendy One';
@@ -1938,16 +1970,17 @@ p {
         margin-left: 50px;
         margin-right: 50px;
     }
-    
+
     .con1 {
         font-size: 0.75rem;
         font-family: Univers, Roboto;
         margin-top: 20px;
         margin-left: 50px;
         margin-right: 50px;
-        
-       
+
+
     }
+
     .con2 {
         font-size: 0.75rem;
         font-family: Univers, Roboto;
@@ -1955,15 +1988,17 @@ p {
         margin-left: 50px;
         margin-right: 50px;
     }
+
     .con3 {
         font-size: 0.75rem;
         font-family: Univers, Roboto;
         margin-top: 20px;
         margin-left: 50px;
         margin-right: 50px;
-       padding: 0px 0px 80px;
+        padding: 0px 0px 80px;
     }
 }
+
 @media (max-width:425px) {
     .reference {
         background-color: #202B72;
@@ -1996,6 +2031,7 @@ p {
     }
 
 }
+
 /*375px*/
 /*title 375px*/
 @media (max-width:375px) {
@@ -2055,6 +2091,7 @@ p {
     }
 
 }
+
 /*quote from saul bass section 375px*/
 @media (max-width: 375px) {
     .quotation img {
@@ -2145,39 +2182,41 @@ p {
         z-index: 0;
     }
 }
+
 /*introduction 375px*/
 @media (max-width: 375px) {
     .hand img {
         position: relative;
         float: left;
-        margin: 0px; 
-        width: 150px; 
+        margin: 0px;
+        width: 150px;
         height: 150px;
-      }
-    
+    }
+
     .title {
         font-size: 2rem;
         font-family: 'Wendy One';
         margin-top: 10px;
         margin-left: 100px;
-    
+
     }
-    
+
     .indo {
         font-size: 0.4rem;
         font-family: Univers, Roboto;
         margin-top: 10px;
         margin-left: 100px;
         margin-right: 20px;
-    
+
     }
+
     .indo2 {
         font-size: 0.4rem;
         font-family: Univers, Roboto;
         margin-top: 10px;
         margin-left: 100px;
         margin-right: 20px;
-    padding-bottom:30px ;
+        padding-bottom: 30px;
     }
 }
 
@@ -2205,6 +2244,7 @@ p {
         font-size: 0.5rem;
     }
 }
+
 /*graphic design 375px*/
 @media (max-width: 375px) {
     .title2 {
@@ -2238,6 +2278,7 @@ p {
         padding: 0px 50px 10px 50px;
 
     }
+
     .atat img {
         max-width: 216px;
         max-height: 149px;
@@ -2248,7 +2289,7 @@ p {
         border-radius: 10%;
         background-repeat: repeat;
     }
-    
+
     .warner img {
         max-width: 216px;
         max-height: 149px;
@@ -2259,7 +2300,7 @@ p {
         border-radius: 10%;
         background-repeat: repeat;
     }
-    
+
     .anatomy img {
         max-width: 216px;
         max-height: 149px;
@@ -2271,17 +2312,18 @@ p {
         background-repeat: repeat;
     }
 }
- 
+
 /*influence on Film industry 375px*/
 @media (max-width:375px) {
     .industry {
         background-color: #F6D000;
         padding: 100px 100px 100px 100px;
     }
+
     .industry2 {
         position: absolute;
         top: 2410px;
-    left: 20px;
+        left: 20px;
         text-align: right;
         color: #051311;
         font-size: 2rem;
@@ -2341,15 +2383,18 @@ p {
 
     }
 }
+
 /*saul bass's influence section 375px*/
 @media (max-width:375px) {
     .back {
         background-color: #368BD0;
         padding: 200px 0px 0px 0px;
     }
-.army {
-    padding: 20px 0px;
-}
+
+    .army {
+        padding: 20px 0px;
+    }
+
     .army img {
         max-width: 316px;
         max-height: 249px;
@@ -2418,21 +2463,22 @@ p {
         max-width: 300px;
     }
 }
+
 /*conclusion 375*/
 @media (max-width:375px) {
     .Conclusion {
         background-color: #F8A700;
-        padding: 10px 0px 0px 0px 
+        padding: 10px 0px 0px 0px
     }
-    
+
     .body img {
         position: relative;
         float: left;
-        margin-top: 0px; 
-        width: 305px; 
+        margin-top: 0px;
+        width: 305px;
         height: 300px;
-      }
-    
+    }
+
     .clus {
         font-size: 2.5rem;
         font-family: 'Wendy One';
@@ -2440,16 +2486,17 @@ p {
         margin-left: 50px;
         margin-right: 50px;
     }
-    
+
     .con1 {
         font-size: 0.75rem;
         font-family: Univers, Roboto;
         margin-top: 20px;
         margin-left: 50px;
         margin-right: 50px;
-        
-       
+
+
     }
+
     .con2 {
         font-size: 0.75rem;
         font-family: Univers, Roboto;
@@ -2457,15 +2504,17 @@ p {
         margin-left: 50px;
         margin-right: 50px;
     }
+
     .con3 {
         font-size: 0.75rem;
         font-family: Univers, Roboto;
         margin-top: 20px;
         margin-left: 50px;
         margin-right: 50px;
-       padding: 0px 0px 80px;
+        padding: 0px 0px 80px;
     }
 }
+
 /*320px*/
 /*title 320px*/
 @media (max-width:320px) {
@@ -2525,6 +2574,7 @@ p {
     }
 
 }
+
 /*quote from saul bass section 320px*/
 @media (max-width: 320px) {
     .quotation img {
@@ -2615,57 +2665,50 @@ p {
         z-index: 0;
     }
 }
+
 /*introduction 320px*/
 @media (max-width: 320px) {
-    .hand img {
-        max-width: 150px;
-        max-height: 120px;
-        display: block;
-        width: 100%;
-        padding: 0px 70px 100px 0px;
 
+    .hand img {
+        position: relative;
+        float: left;
+        margin: 0px;
+        width: 120px;
+        height: 120px;
     }
 
     .title {
-        position: absolute;
-        top: 290px;
-        left: 150px;
-        right: 0px;
-        color: #051311;
-        font-size: 1.5rem;
-        font-family: 'Wendy one';
-        z-index: 0;
+        font-size: 1.75rem;
+        font-family: 'Wendy One';
+        margin-top: 10px;
+        margin-left: 100px;
+
     }
 
     .indo {
-        position: absolute;
-        top: 320px;
-        left: 150px;
-        right: 0px;
-        color: #051311;
         font-size: 0.4rem;
-        z-index: 0;
-        margin-right: 1rem;
+        font-family: Univers, Roboto;
+        margin-top: 10px;
+        margin-left: 100px;
+        margin-right: 20px;
 
     }
 
     .indo2 {
-        position: absolute;
-        top: 420px;
-        left: 150px;
-        right: 0px;
-        color: #051311;
         font-size: 0.4rem;
-        z-index: 0;
-        margin-right: 1rem;
-
+        font-family: Univers, Roboto;
+        margin-top: 10px;
+        margin-left: 120px;
+        margin-right: 20px;
+        padding-bottom: 30px;
     }
 }
+
 /*graphic design 320px*/
 @media (max-width: 320px) {
     .title2 {
         position: absolute;
-        top: 520px;
+        top: 500px;
         left: 75px;
         right: 75px;
         text-align: center;
@@ -2674,6 +2717,7 @@ p {
         font-family: Hitchcock, Wendy One;
         z-index: 0;
     }
+
     .album img {
         max-width: 260px;
         max-height: 149px;
@@ -2685,12 +2729,14 @@ p {
         background-repeat: repeat;
     }
 }
+
 /*influence on Film industry 320px*/
 @media (max-width:320px) {
     .industry {
         background-color: #F6D000;
         padding: 100px 100px 100px 100px;
     }
+
     .industry2 {
         position: absolute;
         top: 2450px;
@@ -2753,20 +2799,23 @@ p {
 
     }
 }
+
 /*saul bass's influence section 320px*/
 @media (max-width:320px) {
     .back {
         background-color: #368BD0;
         padding: 200px 0px 0px 0px;
     }
-.army {
-    padding: 20px 0px;
-}
+
+    .army {
+        padding: 20px 0px;
+    }
+
     .army img {
         max-width: 206px;
         max-height: 249px;
         position: absolute;
-        top: 4450px;
+        top: 4430px;
         left: 60px
     }
 
@@ -2800,6 +2849,7 @@ p {
         position: absolute;
         right: 65px;
     }
+
     .lawdy img {
         max-width: 306px;
         max-height: 209px;
@@ -2810,6 +2860,7 @@ p {
         border-radius: 20%;
         background-repeat: repeat;
     }
+
     .Monster {
         aspect-ratio: 16 / 9;
         max-width: 200px;
@@ -2820,64 +2871,55 @@ p {
         max-width: 200px;
     }
 }
+
 /*conclusion 320px*/
 @media (max-width:320px) {
     .Conclusion {
         background-color: #F8A700;
-        padding: 220px 0px;
+        padding: 10px 0px 0px 0px
     }
 
     .body img {
-        position: absolute;
-        top: 6175px;
-        right: 30px;
+        position: relative;
+        float: left;
+        margin-top: 0px;
+        width: 305px;
+        height: 300px;
     }
 
     .clus {
-        position: absolute;
-        top: 6010px;
-        left: 50px;
-
-        color: #051311;
-        font-size: 1.75rem;
-        font-family: 'Wendy one';
-        z-index: 0;
+        font-size: 2rem;
+        font-family: 'Wendy One';
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .con1 {
-        position: absolute;
-        top: 6040px;
-        left: 50px;
-        right: 0px;
-        color: #051311;
-        font-size: 0.5rem;
+        font-size: 0.65rem;
         font-family: Univers, Roboto;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
 
 
     }
 
     .con2 {
-        position: absolute;
-        top: 6145px;
-        left: 50px;
-        right: auto;
-        color: #051311;
-        font-size: 0.5rem;
+        font-size: 0.65rem;
         font-family: Univers, Roboto;
-        z-index: 0;
-
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .con3 {
-        position: absolute;
-        top: 6200px;
-        left: 50px;
-        right: 0px;
-        color: #051311;
-        font-size: 0.5rem;
+        font-size: 0.75rem;
         font-family: Univers, Roboto;
-        z-index: 0;
-
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 0px 0px 80px;
     }
 }
 /*references 320px*/
