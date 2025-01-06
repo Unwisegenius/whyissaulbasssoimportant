@@ -886,50 +886,39 @@ p {
 
 /*introduction 1024px*/
 @media (max-width: 1024px) {
+
     .hand img {
-        max-width: 550px;
-        max-height: 350px;
-        display: block;
-        width: 100%;
-        padding: 0px 70px 110px 0px;
-
-    }
-
+        position: relative;
+        float: left;
+        margin: 0px; 
+        width: 400px; 
+        height: 400px;
+      }
+    
     .title {
-        position: absolute;
-        top: 1050px;
-        left: 550px;
-        right: 0px;
-        color: #051311;
-        font-size: 4rem;
-        font-family: 'Wendy one';
-        z-index: 0;
+        font-size: 5rem;
+        font-family: 'Wendy One';
+        margin-top: 50px;
+        margin-left: 100px;
+    
     }
-
+    
     .indo {
-        position: absolute;
-        top: 1120px;
-        left: 550px;
-        right: 0px;
-        color: #051311;
-        font-size: 0.8rem;
-        z-index: 0;
-        margin-right: 2rem;
-
+        font-size: 1rem;
+        font-family: Univers, Roboto;
+        margin-top: 20px;
+        margin-left: 100px;
+        margin-right: 50px;
+    
     }
-
     .indo2 {
-        position: absolute;
-        top: 1260px;
-        left: 550px;
-        right: 0px;
-        color: #051311;
-        font-size: 0.8rem;
-        z-index: 0;
-
+        font-size: 1rem;
+        font-family: Univers, Roboto;
+        margin-top: 20px;
+        margin-left: 100px;
+        margin-right: 50px;
     }
 }
-
 /*graphic design 1024px*/
 @media (max-width:1024px) {
     .title2 {
@@ -1019,65 +1008,48 @@ p {
 
     .Conclusion {
         background-color: #F8A700;
+        padding: 10px 0px 0px 0px 
     }
-
+    
     .body img {
-        position: absolute;
-        max-width: 600px;
-        max-height: 600px;
-        top: 14800px;
-        right: 0px;
-
-    }
-
+        position: relative;
+        float: right;
+        margin-top: 50px; 
+        width: 400px; 
+        height: 400px;
+      }
+    
     .clus {
-        position: absolute;
-        top: 14800px;
-        left: 90px;
-        right: 0px;
-        color: #051311;
         font-size: 5rem;
-        font-family: 'Wendy one';
-        z-index: 0;
+        font-family: 'Wendy One';
+        margin-top: 50px;
+        margin-left: 100px;
+    
     }
-
+    
     .con1 {
-        position: absolute;
-        top: 14900px;
-        left: 90px;
-        right: 400px;
-        color: #051311;
-        font-size: 1rem;
+        font-size: 1.25rem;
         font-family: Univers, Roboto;
-
-
+        margin-top: 20px;
+        margin-left: 100px;
+        
+       
     }
-
     .con2 {
-        position: absolute;
-        top: 15100px;
-        left: 90px;
-        right: 400px;
-        color: #051311;
-        font-size: 1rem;
+        font-size: 1.25rem;
         font-family: Univers, Roboto;
-        z-index: 0;
-
+        margin-top: 20px;
+        margin-left: 100px;
+    
     }
-
     .con3 {
-        position: absolute;
-        top: 15200px;
-        left: 90px;
-        right: 400px;
-        color: #051311;
-        font-size: 1rem;
+        font-size: 1.25rem;
         font-family: Univers, Roboto;
-        z-index: 0;
-
+        margin-top: 20px;
+        margin-left: 100px;
+       padding: 0px 0px 80px;
     }
 }
-
 /*768px*/
 /*title text*/
 @media (max-width: 768px) {
@@ -1231,48 +1203,38 @@ p {
 /*introduction 768px*/
 @media (max-width: 768px) {
     .hand img {
-        max-width: 450px;
-        max-height: 350px;
-        display: block;
-        width: 100%;
-        padding: 0px 70px 110px 0px;
-
-    }
-
+        position: relative;
+        float: left;
+        margin: 0px; 
+        width: 300px; 
+        height: 300px;
+      }
+    
     .title {
-        position: absolute;
-        top: 680px;
-        left: 400px;
-        right: 0px;
-        color: #051311;
-        font-size: 3rem;
-        font-family: 'Wendy one';
-        z-index: 0;
+        font-size: 4rem;
+        font-family: 'Wendy One';
+        margin-top: 50px;
+        margin-left: 100px;
+    
     }
-
+    
     .indo {
-        position: absolute;
-        top: 730px;
-        left: 400px;
-        right: 0px;
-        color: #051311;
-        font-size: 0.8rem;
-        z-index: 0;
-        margin-right: 2rem;
-
+        font-size: 0.75rem;
+        font-family: Univers, Roboto;
+        margin-top: 10px;
+        margin-left: 100px;
+        margin-right: 50px;
+    
     }
-
     .indo2 {
-        position: absolute;
-        top: 920px;
-        left: 400px;
-        right: 0px;
-        color: #051311;
-        font-size: 0.8rem;
-        z-index: 0;
-
+        font-size: 0.75rem;
+        font-family: Univers, Roboto;
+        margin-top: 10px;
+        margin-left: 100px;
+        margin-right: 50px;
     }
 }
+
 
 /*font styles 768px*/
 @media (max-width:768px) {
@@ -1302,7 +1264,7 @@ p {
 @media (max-width:768px) {
     .title2 {
         position: absolute;
-        top: 1150px;
+        top: 1060px;
         left: 100px;
         right: 100px;
         text-align: center;
@@ -1337,7 +1299,7 @@ p {
 @media (max-width:768px) {
     .industry2 {
         position: absolute;
-        top: 5150px;
+        top: 5070px;
         right: 50px;
         left: 50px;
         text-align: right;
@@ -1411,7 +1373,7 @@ p {
         max-width: 516px;
         max-height: 449px;
         position: absolute;
-        top: 8500px;
+        top: 8400px;
         left: 150px
     }
 
@@ -1491,65 +1453,50 @@ p {
 @media (max-width:768px) {
     .Conclusion {
         background-color: #F8A700;
-        padding: 300px;
+        padding: 10px 0px 0px 0px 
     }
-
+    
     .body img {
-        max-width: 350px;
-        max-height: 400px;
-        position: absolute;
-        right: 0px;
-        top: 11500px;
-    }
-
+        position: relative;
+        float: right;
+        margin-top: 100px; 
+        
+        width: 300px; 
+        height: 300px;
+      }
+    
     .clus {
-        position: absolute;
-        top: 11450px;
-        left: 40px;
-
-        color: #051311;
-        font-size: 4rem;
-        font-family: 'Wendy one';
-        z-index: 0;
+        font-size: 3.5rem;
+        font-family: 'Wendy One';
+        margin-top: 50px;
+        margin-left: 50px;
+    
     }
-
+    
     .con1 {
-        position: absolute;
-        top: 11520px;
-        left: 40px;
-        right: 250px;
-        color: #051311;
         font-size: 1rem;
         font-family: Univers, Roboto;
-
-
+        margin-top: 20px;
+        margin-left: 50px;
+    
+        
+       
     }
-
     .con2 {
-        position: absolute;
-        top: 11740px;
-        left: 40px;
-        right: 250px;
-        color: #051311;
         font-size: 1rem;
         font-family: Univers, Roboto;
-        z-index: 0;
-
+        margin-top: 20px;
+        margin-left: 50px;
+    
     }
-
     .con3 {
-        position: absolute;
-        top: 11850px;
-        left: 40px;
-        right: 250px;
-        color: #051311;
         font-size: 1rem;
         font-family: Univers, Roboto;
-        z-index: 0;
-
+        margin-top: 20px;
+        margin-left: 50px;
+       padding: 0px 0px 80px;
     }
 }
-
 /*references 768px*/
 @media (max-width:768px) {
     .reference {
@@ -1725,46 +1672,35 @@ p {
 /*introduction 425px*/
 @media (max-width: 425px) {
     .hand img {
-        max-width: 200px;
-        max-height: 150px;
-        display: block;
-        width: 100%;
-        padding: 0px 70px 110px 0px;
-
-    }
-
+        position: relative;
+        float: left;
+        margin: 0px; 
+        width: 200px; 
+        height: 200px;
+      }
+    
     .title {
-        position: absolute;
-        top: 380px;
-        left: 200px;
-        right: 0px;
-        color: #051311;
         font-size: 2rem;
-        font-family: 'Wendy one';
-        z-index: 0;
+        font-family: 'Wendy One';
+        margin-top: 10px;
+        margin-left: 100px;
+    
     }
-
+    
     .indo {
-        position: absolute;
-        top: 420px;
-        left: 200px;
-        right: 0px;
-        color: #051311;
-        font-size: 0.5rem;
-        z-index: 0;
-        margin-right: 2rem;
-
+        font-size: 0.4rem;
+        font-family: Univers, Roboto;
+        margin-top: 10px;
+        margin-left: 100px;
+        margin-right: 20px;
+    
     }
-
     .indo2 {
-        position: absolute;
-        top: 540px;
-        left: 200px;
-        right: 0px;
-        color: #051311;
-        font-size: 0.5rem;
-        z-index: 0;
-
+        font-size: 0.4rem;
+        font-family: Univers, Roboto;
+        margin-top: 10px;
+        margin-left: 100px;
+        margin-right: 20px;
     }
 }
 
@@ -1796,12 +1732,12 @@ p {
 @media (max-width: 425px) {
     .title2 {
         position: absolute;
-        top: 650px;
+        top: 600px;
         left: 75px;
         right: 75px;
         text-align: center;
         color: #ffffff;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         font-family: Hitchcock, Wendy One;;
         z-index: 0;
     }
@@ -1915,7 +1851,7 @@ p {
         max-width: 416px;
         max-height: 349px;
         position: absolute;
-        top: 7370px;
+        top: 7300px;
         left: 50px
     }
 
@@ -1984,60 +1920,48 @@ p {
 @media (max-width:425px) {
     .Conclusion {
         background-color: #F8A700;
-        padding: 300px 0px;
+        padding: 10px 0px 0px 0px 
     }
-
+    
     .body img {
-        position: absolute;
-        top: 10280px;
-        right: 70px;
-    }
-
+        position: relative;
+        float: left;
+        margin-top: 50px; 
+        width: 400px; 
+        height: 300px;
+      }
+    
     .clus {
-        position: absolute;
-        top: 10000px;
-        left: 50px;
-
-        color: #051311;
-        font-size: 2rem;
-        font-family: 'Wendy one';
-        z-index: 0;
+        font-size: 2.5rem;
+        font-family: 'Wendy One';
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
-
+    
     .con1 {
-        position: absolute;
-        top: 10050px;
-        left: 50px;
-        right: 0px;
-        color: #051311;
         font-size: 0.75rem;
         font-family: Univers, Roboto;
-
-
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        
+       
     }
-
     .con2 {
-        position: absolute;
-        top: 10220px;
-        left: 50px;
-        right: auto;
-        color: #051311;
         font-size: 0.75rem;
         font-family: Univers, Roboto;
-        z-index: 0;
-
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
-
     .con3 {
-        position: absolute;
-        top: 10300px;
-        left: 50px;
-        right: 0px;
-        color: #051311;
         font-size: 0.75rem;
         font-family: Univers, Roboto;
-        z-index: 0;
-
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+       padding: 0px 0px 80px;
     }
 }
 @media (max-width:425px) {
