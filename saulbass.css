@@ -1721,7 +1721,7 @@ p {
     }
 
     p {
-        font-family: 'Univers';
+        font-family: Univers, Roboto;
         font-weight: 400;
         font-style: regular;
         font-size: 0.75rem;
