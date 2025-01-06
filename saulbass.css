@@ -3007,3 +3007,63 @@ p {
         color: #E9E9E9;
     }
 }
+/*multiple browser fixes 1512px*/
+/*conclusion 1512px*/
+@media (max-width:1512px) {
+    .Conclusion {
+        background-color: #F8A700;
+        padding: 300px 0px;
+    }
+
+    .body img {
+        position: absolute;
+        top: 13175px;
+        right: 30px;
+    }
+
+    .clus {
+        position: absolute;
+        top: 13260px;
+        left: 50px;
+        color: #051311;
+        font-size: 5rem;
+        font-family: 'Wendy one';
+        z-index: 0;
+    }
+
+    .con1 {
+        position: absolute;
+        top: 13340px;
+        left: 50px;
+        right: 500px;
+        color: #051311;
+        font-size: 1.25rem;
+        font-family: 'Univers';
+
+
+    }
+
+    .con2 {
+        position: absolute;
+        top: 13525px;
+        left: 50px;
+        right: 500px;
+        color: #051311;
+        font-size: 1.25rem;
+        font-family: 'Univers';
+        z-index: 0;
+
+    }
+
+    .con3 {
+        position: absolute;
+        top: 13620px;
+        left: 50px;
+        right: 500px;
+        color: #051311;
+        font-size: 1.25rem;
+        font-family: 'Univers';
+        z-index: 0;
+
+    }
+}
