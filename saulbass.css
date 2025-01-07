@@ -459,7 +459,7 @@ p {
     color: #051311;
     font-size: 6rem;
     font-family: 'Wendy One';
-    z-index: 0;
+    z-index: 20;
     padding: 0px 50px 100px 0px
 }
 
