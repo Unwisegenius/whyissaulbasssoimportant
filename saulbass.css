@@ -451,16 +451,14 @@ p {
 }
 
 .industry2 {
-    position: absolute;
-    top: 5510px;
-    right: 300px;
-    left: 300px;
-    text-align: right;
-    color: #051311;
     font-size: 6rem;
     font-family: 'Wendy One';
-    z-index: 20;
-    padding: 0px 50px 0px 0px
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 270px;
+    text-align: right;
+    color: #051311;
+    
 }
 
 .industry2 {
