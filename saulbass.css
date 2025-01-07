@@ -397,14 +397,16 @@ p {
     padding: 0px 200px 30px 200px;
 
 }
-
+.atat {
+    display:flex;
+    justify-content: center;
+    gap: 30px
+}
 .atat img {
-    max-width: 716px;
+    max-width: 306px;
     max-height: 649px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px 30px 30px 30px;
+    padding: 10px;
     border-radius: 10%;
     background-repeat: repeat;
 }
@@ -1793,6 +1795,18 @@ p {
         padding: 0px 50px 30px 50px;
 
     }
+    .atat {
+        display:flex;
+        justify-content: center;
+        gap: 0px
+    }
+    .atat img {
+        max-width: 150px;
+        max-height: 150px;
+        display: block;
+        border-radius: 10%;
+        background-repeat: repeat;
+    }
 
     .album img {
         max-width: 316px;
@@ -2030,6 +2044,206 @@ p {
         text-align: center;
     }
 
+}
+/*393*/
+/*opening title 393px*/
+@media (max-width:393px) {
+    .why {
+        position: absolute;
+        top: 15px;
+        left: 125px;
+        right: 0px;
+        color: #DA0000;
+        font-size: 2.3rem;
+        font-family: Hitchcock, Wendy One;
+        z-index: 0;
+    }
+
+    .saul {
+        position: absolute;
+        top: 70px;
+        left: 10px;
+        right: 0px;
+        color: #368BD0;
+        font-size: 2.3rem;
+        font-family: Hitchcock, Wendy One;
+        z-index: 0;
+    }
+
+    .bass {
+        position: absolute;
+        top: 70px;
+        left: 187px;
+        right: 0px;
+        color: #007D06;
+        font-size: 2.2rem;
+        font-family: Hitchcock, Wendy One;
+        z-index: 0;
+    }
+
+    .so {
+        position: absolute;
+        top: 125px;
+        left: 145px;
+        right: 0px;
+        color: #F58020;
+        font-size: 2rem;
+        font-family: Hitchcock, Wendy One;
+        z-index: 0;
+    }
+
+    .important {
+        position: absolute;
+        top: 125px;
+        left: 200px;
+        right: 0px;
+        color: #F58020;
+        font-size: 2rem;
+        font-family: Hitchcock, Wendy One;
+        z-index: 0;
+    }
+
+}
+/*quote 393*/
+@media (max-width:393px) {
+.quotation img {
+    max-width: 1500px;
+    max-height: 849px;
+    display: block;
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.make {
+    position: absolute;
+    top: 240px;
+    left: 10px;
+    right: 0px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-family: Hitchcock, Wendy One;
+    z-index: 0;
+}
+
+.thing {
+    position: absolute;
+    top: 260px;
+    left: 10px;
+    right: 0px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-family: Hitchcock, Wendy One;
+    z-index: 0;
+}
+
+.comma {
+    position: absolute;
+    top: 260px;
+    left: 66px;
+    right: 0px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-family: 'Wendy One';
+    z-index: 0;
+}
+
+.if {
+    position: absolute;
+    top: 260px;
+    left: 74px;
+    right: 0px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-family: Hitchcock, Wendy One;
+    z-index: 0;
+}
+
+.cares {
+    position: absolute;
+    top: 280px;
+    left: 10px;
+    right: 0px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-family: Hitchcock, Wendy One;
+    z-index: 0;
+}
+
+.dash {
+    position: absolute;
+    top: 280px;
+    left: 65px;
+    right: 0px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-family: 'Wendy One';
+    z-index: 0;
+}
+
+.sb {
+    position: absolute;
+    top: 280px;
+    left: 80px;
+    right: 0px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-family: Hitchcock, Wendy One;
+    z-index: 0;
+}
+}
+/*introduction 393px*/
+@media (max-width: 393px) {
+    .hand img {
+        position: relative;
+        float: left;
+        margin: 0px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .title {
+        font-size: 2rem;
+        font-family: 'Wendy One';
+        margin-top: 10px;
+        margin-left: 100px;
+
+    }
+
+    .indo {
+        font-size: 0.4rem;
+        font-family: Univers, Roboto;
+        margin-top: 10px;
+        margin-left: 100px;
+        margin-right: 20px;
+
+    }
+
+    .indo2 {
+        font-size: 0.4rem;
+        font-family: Univers, Roboto;
+        margin-top: 10px;
+        margin-left: 100px;
+        margin-right: 20px;
+        padding-bottom: 20px;
+    }
+}
+/*graphic design 393px*/
+@media (max-width: 393px) {
+    .title2 {
+        position: absolute;
+        top: 530px;
+        left: 75px;
+        right: 75px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 1.75rem;
+        font-family: Hitchcock, Wendy One;
+        ;
+        z-index: 0;
+    }
 }
 
 /*375px*/
@@ -2278,14 +2492,15 @@ p {
         padding: 0px 50px 10px 50px;
 
     }
-
+.atat{
+gap: 5px;
+}
     .atat img {
-        max-width: 216px;
-        max-height: 149px;
+        max-width: 125px;
+        max-height: 125px;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px 30px 10px 30px;
+    
+        padding: 10px 10px 10px 10px;
         border-radius: 10%;
         background-repeat: repeat;
     }
