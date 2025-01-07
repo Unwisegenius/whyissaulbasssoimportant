@@ -2245,7 +2245,49 @@ p {
         z-index: 0;
     }
 }
+/*influence on Film industry 393px*/
+@media (max-width:393px) {
+    .industry2 {
+        position: absolute;
+        top: 3800px;
+        right: 50px;
+        text-align: right;
+        color: #051311;
+        font-size: 2.5rem;
+        font-family: 'Wendy One';
+        z-index: 0;
 
+    }
+}
+.Story img {
+    max-width: 320px;
+    max-height: 275px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+
+}
+/* influence on others 393px*/
+@media (max-width:393px) {
+.army img {
+    max-width: 300px;
+    max-height: 309px;
+    position: absolute;
+    top: 7100px;
+    left: 50px
+}
+}
+/*body image 393px*/
+@media (max-width:393px) {
+.body img {
+    position: relative;
+    float: left;
+    margin-top: 0px;
+    width: 400px;
+    height: 300px;
+}
+}
 /*375px*/
 /*title 375px*/
 @media (max-width:375px) {
